@@ -2,7 +2,7 @@
   position: absolute;
   border: 2px solid red;
   width: 375px;
-  height: 718px;
+  height: 812px;
 }
 
 .header {
@@ -10,6 +10,7 @@
   height: 100px;
   border: 2px solid blue;
   position: sticky;
+  color: blue;
 }
 
 .body {
@@ -17,4 +18,61 @@
   height: 610px;
   position: fixed;
   border: 2px solid green;
+}
+.body div {
+  margin: auto;
+  width: 90%;
+
+}
+
+.name {
+  width: 327px;
+  border: 2px solid black;
+  height: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: left;
+  line-height: 52px;
+  color: #172b4d;
+  margin-top: 12px;
+}
+
+.description {
+  width: 327px;
+  height: 150px;
+  border: 2px solid black;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  color: #344563;
+}
+
+.contact {
+  width: 327px;
+  height: 150px;
+  border: 2px solid black;
+}
+
+nav{
+  display: flex;
+  background-color: rgb(224, 206, 206);
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nav {
+  margin: auto 0;
+  display: block;
+  cursor: pointer;
+}
+
+.nav div {
+  width: 30px;
+  /* height: 3px; */
+  /* background-color: rgb(23, 1, 1); */
+  border: 1px solid blue;
+  margin: 6px;
 }
