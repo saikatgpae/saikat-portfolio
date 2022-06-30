@@ -6,15 +6,12 @@
 }
 
 .header {
-  /* border: 2px solid blue; */
   color: blue;
   padding: 20px;
 }
 
 nav {
   display: flex;
-
-  /* background-color: rgb(224, 206, 206); */
   width: 100%;
   justify-content: space-between;
   height: auto;
@@ -40,10 +37,6 @@ nav {
 .body {
   width: 371px;
   height: 610px;
-
-  /* position: fixed; */
-
-  /* border: 2px solid green; */
   margin-top: 100px;
 }
 
@@ -51,8 +44,6 @@ nav {
   margin: auto;
   width: 90%;
   margin-top: 12px;
-
-  /* border: 2px solid black; */
 }
 
 .name {
@@ -71,8 +62,6 @@ nav {
 .description {
   width: 327px;
   height: 150px;
-
-  /* border: 2px solid black; */
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
@@ -86,14 +75,10 @@ nav {
 
 .connect-logo {
   display: flex;
-
-  /* border: 1px solid red; */
 }
 
 .logo-div {
   display: flex;
-
-  /* border: 1px solid greenyellow; */
   flex: 1;
 }
 
