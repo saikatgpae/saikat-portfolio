@@ -17,6 +17,7 @@ nav {
   /* background-color: rgb(224, 206, 206); */
   width: 100%;
   justify-content: space-between;
+  height: auto;
 }
 
 .navbar {
@@ -98,4 +99,8 @@ nav {
 
 .eclipse-3 {
   object-position: right top;
+}
+
+.ellipse12 {
+  padding: 30px;
 }
