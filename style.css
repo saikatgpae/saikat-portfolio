@@ -6,22 +6,22 @@
 }
 
 .header {
-  width: 371px;
-  height: 100px;
   border: 2px solid blue;
-  position: sticky;
   color: blue;
+  padding: 20px;
 }
 
 .body {
   width: 371px;
   height: 610px;
-  position: fixed;
+  /* position: fixed; */
   border: 2px solid green;
+  margin-top: 100px;
 }
 .body div {
   margin: auto;
   width: 90%;
+  margin-top: 12px;
 
 }
 
@@ -58,21 +58,24 @@
 
 nav{
   display: flex;
-  background-color: rgb(224, 206, 206);
+  /* background-color: rgb(224, 206, 206); */
   width: 100%;
   justify-content: space-between;
 }
 
-.nav {
+.navbar {
   margin: auto 0;
   display: block;
   cursor: pointer;
 }
 
-.nav div {
+.navbar div {
   width: 30px;
-  /* height: 3px; */
-  /* background-color: rgb(23, 1, 1); */
   border: 1px solid blue;
   margin: 6px;
+}
+
+.logo{
+  width: 40px;
+  height: 60px;
 }
