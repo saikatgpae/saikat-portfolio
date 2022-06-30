@@ -3,7 +3,7 @@
 # Project Name
 Portfolio: setup and mobile version skeleton
 
-> This project is to create personal portfolio
+> This project is to create personal portfolio for mbile use.
 
 
 ## Built With
