@@ -5,90 +5,97 @@
   height: 812px;
 }
 
-  .header {
-    /* border: 2px solid blue; */
-    color: blue;
-    padding: 20px;
-  }
-    nav{
-      display: flex;
-      /* background-color: rgb(224, 206, 206); */
-      width: 100%;
-      justify-content: space-between;
-    }
+.header {
+  /* border: 2px solid blue; */
+  color: blue;
+  padding: 20px;
+}
 
-    .navbar {
-      margin: auto 0;
-      display: block;
-      cursor: pointer;
-    }
+nav {
+  display: flex;
 
-    .navbar div {
-      width: 30px;
-      border: 1px solid blue;
-      margin: 6px;
-    }
+  /* background-color: rgb(224, 206, 206); */
+  width: 100%;
+  justify-content: space-between;
+}
 
-    .logo{
-      width: 40px;
-      height: 60px;
-    }
+.navbar {
+  margin: auto 0;
+  display: block;
+  cursor: pointer;
+}
 
-  .body {
-    width: 371px;
-    height: 610px;
-    /* position: fixed; */
-    /* border: 2px solid green; */
-    margin-top: 100px;
-  }
-    .body div {
-      margin: auto;
-      width: 90%;
-      margin-top: 12px;
-      /* border: 2px solid black; */
+.navbar div {
+  width: 30px;
+  border: 1px solid blue;
+  margin: 6px;
+}
 
-    }
+.logo {
+  width: 40px;
+  height: 60px;
+}
 
-  .name {
-    width: 327px;
-    height: 150px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    text-align: left;
-    line-height: 52px;
-    color: #172b4d;
-    margin-top: 12px;
-  }
+.body {
+  width: 371px;
+  height: 610px;
 
-  .description {
-    width: 327px;
-    height: 150px;
-    /* border: 2px solid black; */
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    line-height: 24px;
-    color: #344563;
-  }
+  /* position: fixed; */
 
-  .contact {
-    color: #7f8cff;
-  }
+  /* border: 2px solid green; */
+  margin-top: 100px;
+}
 
+.body div {
+  margin: auto;
+  width: 90%;
+  margin-top: 12px;
 
-  .connect-logo{
-    display: flex;
-    /* border: 1px solid red; */
-  }
+  /* border: 2px solid black; */
+}
 
-  .logo-div{
-    display: flex;
-    /* border: 1px solid greenyellow; */
-    flex: 1;
-  }
+.name {
+  width: 327px;
+  height: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: left;
+  line-height: 52px;
+  color: #172b4d;
+  margin-top: 12px;
+}
 
-  .eclipse-3{
-    object-position: right top;
-  }
+.description {
+  width: 327px;
+  height: 150px;
+
+  /* border: 2px solid black; */
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  color: #344563;
+}
+
+.contact {
+  color: #7f8cff;
+}
+
+.connect-logo {
+  display: flex;
+
+  /* border: 1px solid red; */
+}
+
+.logo-div {
+  display: flex;
+
+  /* border: 1px solid greenyellow; */
+  flex: 1;
+}
+
+.eclipse-3 {
+  object-position: right top;
+}
