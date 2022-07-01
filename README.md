@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Portfolio: mobile version
 Portfolio: setup and mobile version skeleton
 
 > This project is to create personal portfolio
