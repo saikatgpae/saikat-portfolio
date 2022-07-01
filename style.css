@@ -7,7 +7,7 @@ body {
   border: 1px dotted blue;
   width: 375px;
   height: 812px;
-  background-image: url("image/Ellipse11.png"), url("./image/Rectangle7.png"), url("./image/Ellipse3.png"), url("./image/Ellipse12.png"), url("./image/Ellipse4.png"), url("./image/header-background-mobile.png");
+  background-image: url("image/Ellipse11.png"), url("./image/Rectangle7.png"), url("./image/Ellipse3.png"), url("./image/Ellipse12.png"), url("./image/Ellipse4.png"), url("./image/header-background-mobile.svg");
   background-position: 16.04px 161.47px, 127.18px 151.59px, 323px 152.24px, 341.76px 546.69px, 237px 670.1px, 0 0;
   background-repeat: no-repeat;
   background-color: #dbdbf6;
