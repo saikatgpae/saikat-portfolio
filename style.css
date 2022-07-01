@@ -94,6 +94,6 @@ nav {
 
 .logo-div {
   display: flex;
-  flex: 1;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 163.5px;
 }
