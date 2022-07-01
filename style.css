@@ -96,4 +96,5 @@ nav {
   display: flex;
   justify-content: space-between;
   width: 163.5px;
+  list-style-type: none;
 }
