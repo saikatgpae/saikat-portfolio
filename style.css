@@ -1,5 +1,6 @@
 body {
   background-color: rgb(247, 247, 239);
+  margin-left: 200px;
 }
 
 .container {
@@ -98,7 +99,7 @@ nav {
 }
 
 .project{
-  padding-left: 24px;
+  padding-left: 23px;
 }
 
 .project1 {
@@ -116,6 +117,9 @@ nav {
   border: 1px solid #DFE1E6;
   background-color: #FFFFFF;
 }
+#p2{
+  margin-top: 88px;
+}
 
 .project3 {
   width: 327px;
@@ -123,6 +127,9 @@ nav {
   border-radius: 16px;
   border: 1px solid #DFE1E6;
   background-color: #FFFFFF;
+}
+#p3{
+  margin-top: 88px;
 }
 
 .project4 {
@@ -132,12 +139,17 @@ nav {
   border: 1px solid #DFE1E6;
   background-color: #FFFFFF;
 }
-
+#p4{
+  margin-top: 88px;
+}
 .about_myself {
   width: 375px;
   height: 1263px;
-  border-radius: 0 100px 0 0;
+  /* border-radius: 0 100px 0 0; */
   background-color: #FFFFFF;
+}
+#p5{
+  margin-top: 114px;
 }
 
 .contact_me {
