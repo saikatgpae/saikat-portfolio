@@ -1,24 +1,22 @@
 body {
-  background-color: beige;
+  background-color: rgb(247, 247, 239);
+}
+
+.container {
+  background-color: #E5E5E5;
+  width: 375px;
 }
 
 .main {
-  position: absolute;
-  border: 1px dotted blue;
   width: 375px;
   height: 812px;
   background-image: url("image/Ellipse11.png"), url("./image/Rectangle7.png"), url("./image/Ellipse3.png"), url("./image/Ellipse12.png"), url("./image/Ellipse4.png"), url("./image/header-background-mobile.svg");
   background-position: 16.04px 161.47px, 127.18px 151.59px, 323px 152.24px, 341.76px 546.69px, 237px 670.1px, 0 0;
   background-repeat: no-repeat;
-  background-color: #dbdbf6;
-  box-shadow: 1px 1px rgb(43, 182, 233);
-
-  /* border: 1px solid red; */
+  background-color: #E5E5E5;
+  /* box-shadow: 1px 1px rgb(43, 182, 233); */
+  /* display: flex; */
 }
-
-/* .main > div {
-  border: 1px solid red;
-} */
 
 .header {
   color: blue;
@@ -98,3 +96,55 @@ nav {
   width: 163.5px;
   list-style-type: none;
 }
+
+.project{
+  padding-left: 24px;
+}
+
+.project1 {
+  width: 327px;
+  height: 552px;
+  border-radius: 16px;
+  border: 1px solid #DFE1E6;
+  background-color: #FFFFFF;
+}
+
+.project2 {
+  width: 327px;
+  height: 596px;
+  border-radius: 16px;
+  border: 1px solid #DFE1E6;
+  background-color: #FFFFFF;
+}
+
+.project3 {
+  width: 327px;
+  height: 552px;
+  border-radius: 16px;
+  border: 1px solid #DFE1E6;
+  background-color: #FFFFFF;
+}
+
+.project4 {
+  width: 327px;
+  height: 596px;
+  border-radius: 16px;
+  border: 1px solid #DFE1E6;
+  background-color: #FFFFFF;
+}
+
+.about_myself {
+  width: 375px;
+  height: 1263px;
+  border-radius: 0 100px 0 0;
+  background-color: #FFFFFF;
+}
+
+.contact_me {
+  width: 375px;
+  height: 779px;
+  border-radius: 16px;
+  background-color: #6070FF;
+  border-radius: 100px 0 0 0;
+}
+
