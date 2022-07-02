@@ -1,0 +1,100 @@
+body {
+  background-color: beige;
+}
+
+.main {
+  position: absolute;
+  border: 1px dotted blue;
+  width: 375px;
+  height: 812px;
+  background-image: url("image/Ellipse11.png"), url("./image/Rectangle7.png"), url("./image/Ellipse3.png"), url("./image/Ellipse12.png"), url("./image/Ellipse4.png"), url("./image/header-background-mobile.svg");
+  background-position: 16.04px 161.47px, 127.18px 151.59px, 323px 152.24px, 341.76px 546.69px, 237px 670.1px, 0 0;
+  background-repeat: no-repeat;
+  background-color: #dbdbf6;
+  box-shadow: 1px 1px rgb(43, 182, 233);
+
+  /* border: 1px solid red; */
+}
+
+/* .main > div {
+  border: 1px solid red;
+} */
+
+.header {
+  color: blue;
+  padding: 50px;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: auto;
+}
+
+.navbar {
+  margin: auto 0;
+  display: block;
+  cursor: pointer;
+}
+
+.navbar div {
+  width: 30px;
+  border: 1px solid blue;
+  margin: 6px;
+}
+
+.logo {
+  width: 40px;
+  height: 60px;
+}
+
+.body {
+  width: 371px;
+  height: 610px;
+  margin-top: 100px;
+}
+
+.body div {
+  margin: auto;
+  width: 90%;
+  margin-top: 12px;
+}
+
+.name {
+  width: 327px;
+  height: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: left;
+  line-height: 52px;
+  color: #172b4d;
+  margin-top: 12px;
+}
+
+.description {
+  width: 327px;
+  height: 150px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  color: #344563;
+}
+
+.contact {
+  color: #7f8cff;
+}
+
+.connect-logo {
+  display: flex;
+}
+
+.logo-div {
+  display: flex;
+  justify-content: space-between;
+  width: 163.5px;
+  list-style-type: none;
+}
