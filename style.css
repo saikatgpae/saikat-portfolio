@@ -107,155 +107,189 @@ body {
 
 .project{
   padding-left: 23px;
-  border: 1px dotted red;
+  /* border: 1px dotted red; */
 }
 
 
 /* PROJECT 1 CSS */
 
-            .project1 {
-              width: 327px;
-              height: 552px;
-              border-radius: 16px;
-              /* border: 1px solid #DFE1E6; */
-              background-color: #FFFFFF;
-              border: 1px dotted red;  
-              display: flex;
-              flex-direction: column;
-            }
-            /* prject1 image */
-            #profile_snapshoot{
-              width: 295px;
-              height: 220px;
-              margin-left: 16px;
-              margin-top: 16px;
-            }
-              /* Project1 H1 tag "Tonic"   */
-              #project1-h1{
-                /* margin-left: 16px; */
-                font-size: 32px;
-                font-weight: 700;
-                color: #172B4D;
-                font-family: Poppins-SemiBold, Arial, Helvetica, sans-serif;
-                line-height: 44px;
-                margin: 12px 0px 0px 16px;
-              }
-              
-              /* Project 1 unorder list holdin canopy Back End Dev 2022 */
-              .project1-ul{
-                padding: 0;
-                margin: 20px 0px 20px 16px;
-              }
-              /* List items inside the .project1-ul   */
-              .project1-ul li{          
-                  color: #7A869A;
-                  margin-left: 20px;
-                  float: left;
-                  font-size: 13px;
-                }
-                  #canopy{
-                    list-style-type: none;
-                    color: #344563;
-                    margin-left: 0;
-                  }
+  .project1 {
+    width: 327px;
+    height: 552px;
+    border-radius: 16px;
+    /* border: 1px solid #DFE1E6; */
+    background-color: #FFFFFF;
+    /* border: 1px dotted red;   */
+    display: flex;
+    flex-direction: column;
+  }
+  /* prject1 image */
+  #profile_snapshoot{
+    width: 295px;
+    height: 220px;
+    margin-left: 16px;
+    margin-top: 16px;
+  }
+    /* Project1 H1 tag "Tonic"   */
+    #project1-h1{
+      /* margin-left: 16px; */
+      font-size: 32px;
+      font-weight: 700;
+      color: #172B4D;
+      font-family: Poppins-SemiBold, Arial, Helvetica, sans-serif;
+      line-height: 44px;
+      margin: 12px 0px 0px 16px;
+    }
+    
+    /* Project 1 unorder list holdin canopy Back End Dev 2022 */
+    .project1-ul{
+      padding: 0;
+      margin: 20px 0px 20px 16px;
+    }
+    /* List items inside the .project1-ul   */
+    .project1-ul li{          
+        color: #7A869A;
+        margin-left: 20px;
+        float: left;
+        font-size: 13px;
+      }
+        #canopy{
+          list-style-type: none;
+          color: #344563;
+          margin-left: 0;
+        }
 
-              /* project1 paragraph     */
-              .project1-para{
-                margin: 0;
-                margin-left: 16px;
-                margin-right: 16px;
-                font-family: Poppins-Light, Arial, Helvetica, sans-serif;
-                margin: 0px 16px 16px 16px;
-                text-align: justify;
-              }
-              .project1-button{
-                margin: 0px 0px 20px 16px;
-                display: flex;
-                /* flex-wrap: wrap; */
-              }
-              .project1-button button{
-                margin-right: 20px;
-                border-radius: 8px;
-                padding: 4px 12px 4px 12px;
-                background-color: #EBEBFF;
-                border-width: 0;
-                color: #6070FF;
-                font-size: 12px;
-              }
+    /* project1 paragraph     */
+    .project1-para{
+      font-size: 15px;
+      margin: 0;
+      font-family: Poppins-Light, Arial, Helvetica, sans-serif;
+      margin: 0px 16px 16px 16px;
+      text-align: justify;
+    }
+    .project1-button{
+      margin: 0px 0px 20px 16px;
+      display: flex;
+      /* flex-wrap: wrap; */
+    }
+    .project1-button button{
+      margin-right: 20px;
+      border-radius: 8px;
+      padding: 4px 12px 4px 12px;
+      background-color: #EBEBFF;
+      border-width: 0;
+      color: #6070FF;
+      font-size: 12px;
+    }
 
-              /* .project1-button>.button:not(:first-child) {
-                margin-right: 20px;
-               } */
+    /* .project1-button>.button:not(:first-child) {
+      margin-right: 20px;
+      } */
 
 
-              .see-project button{
-                margin: 0px 0px 0px 16px;
-                border-radius: 8px;
-                font-size: 17px;
-                
-                background-color: #EBEBFF;
-                border: 2px solid #6070FF;
-                color: #6070FF;
-                padding: 12px;
-              }
+    .see-project button{
+      margin: 0px 0px 0px 16px;
+      border-radius: 8px;
+      font-size: 17px;
+      
+      background-color: #EBEBFF;
+      border: 2px solid #6070FF;
+      color: #6070FF;
+      padding: 12px;
+    }
 
-  
-
+    
 
 
 
-.project2 {
-  width: 327px;
-  height: 596px;
-  border-radius: 16px;
-  border: 1px solid #DFE1E6;
-  background-color: #FFFFFF;
-}
-#p2{
-  margin-top: 88px;
-}
 
-.project3 {
-  width: 327px;
-  height: 552px;
-  border-radius: 16px;
-  border: 1px solid #DFE1E6;
-  background-color: #FFFFFF;
-}
-#p3{
-  margin-top: 88px;
-  
-}
+  .project2 {
+    width: 327px;
+    height: 596px;
+    border-radius: 16px;
+    border: 1px solid #DFE1E6;
+    background-color: #FFFFFF;
+  }
+    #p2{
+      margin-top: 88px;
+    }
+    .am_heading{
+      margin: 114px 14px 12px 14px;
+    }
+    
 
-.project4 {
-  width: 327px;
-  height: 596px;
-  border-radius: 16px;
-  border: 1px solid #DFE1E6;
-  background-color: #FFFFFF;
-}
-#p4{
-  margin-top: 88px;
-}
-.about_myself {
-  width: 375px;
-  height: 1263px;
-  border-radius: 0 100px 0 0;
-  background-color: #FFFFFF;
-}
-#p5{
-  margin-top: 114px;
-}
+  .project3 {
+    width: 327px;
+    height: 552px;
+    border-radius: 16px;
+    border: 1px solid #DFE1E6;
+    background-color: #FFFFFF;
+  }
+  #p3{
+    margin-top: 88px;
+    
+  }
 
-.contact_me {
-  width: 375px;
-  height: 779px;
-  border-radius: 16px;
-  background-color: #6070FF;
-  border-radius: 100px 0 0 0;
+  .project4 {
+    width: 327px;
+    height: 596px;
+    border-radius: 16px;
+    border: 1px solid #DFE1E6;
+    background-color: #FFFFFF;
+  }
+  #p4{
+    margin-top: 88px;
+  }
+
+
+/* About Myself and Contact Me flexbox */
+.am-contact{
+  display: flex;
+  flex-direction: column;
 }
 
-.work_station {
-  display: grid;
-  grid-template-columns: auto;
-}
+  .about_myself {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    height: 1263px;
+    border-radius: 0 100px 0 0;
+    background-color: #FFFFFF;
+    /* padding: 114px 24px 0 24px; */
+  }
+  #p5{
+    margin-top: 114px;
+  }
+  /* About Myself heading */
+  .am_heading{
+    font-family: Poppins-SemiBold, Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    /* margin-top: 228px; */
+    }
+  .am_description{
+      margin: 0;
+      margin-left: 16px;
+      margin-right: 16px;
+      font-family: Poppins-Light, Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      margin: 0px 16px 16px 16px;
+      text-align: justify;
+  }  
+    .am-connect{
+      margin-left: 24px;
+    }
+
+
+  .contact_me {
+    width: 375px;
+    height: 779px;
+    border-radius: 16px;
+    background-color: #6070FF;
+    border-radius: 100px 0 0 0;
+  }
+
+  .work_station {
+    display: grid;
+    grid-template-columns: auto;
+  }
