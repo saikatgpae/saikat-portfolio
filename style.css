@@ -1,11 +1,17 @@
 body {
   background-color: rgb(247, 247, 239);
-  margin-left: 200px;
+  /* margin-left: 200px; */
+  /* margin-top: 50px; */
+  /* margin-bottom: 50px; */
 }
 
 .container {
   background-color: #E5E5E5;
   width: 375px;
+  /* border: 1px dotted blue; */
+  font-family: Poppins-SemiBold, Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 .main {
@@ -19,96 +25,184 @@ body {
   /* display: flex; */
 }
 
-.header {
-  color: blue;
-  padding: 50px;
-}
+  .header {
+    color: blue;
+    padding: 50px;
+  }
 
-nav {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  height: auto;
-}
+  nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: auto;
+  }
 
-.navbar {
-  margin: auto 0;
-  display: block;
-  cursor: pointer;
-}
+  .navbar {
+    margin: auto 0;
+    display: block;
+    cursor: pointer;
+  }
 
-.navbar div {
-  width: 30px;
-  border: 1px solid blue;
-  margin: 6px;
-}
+  .navbar div {
+    width: 30px;
+    border: 1px solid blue;
+    margin: 6px;
+  }
 
-.logo {
-  width: 40px;
-  height: 60px;
-}
+  .logo {
+    width: 40px;
+    height: 60px;
+  }
 
-.body {
-  width: 371px;
-  height: 610px;
-  margin-top: 100px;
-}
+  .body {
+    width: 371px;
+    height: 610px;
+    margin-top: 100px;
+  }
 
-.body div {
-  margin: auto;
-  width: 90%;
-  margin-top: 12px;
-}
+  .body div {
+    margin: auto;
+    width: 90%;
+    margin-top: 12px;
+  }
 
-.name {
-  width: 327px;
-  height: 150px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 25px;
-  text-align: left;
-  line-height: 52px;
-  color: #172b4d;
-  margin-top: 12px;
-}
+  .name {
+    width: 327px;
+    height: 150px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: left;
+    line-height: 52px;
+    color: #172b4d;
+    margin-top: 12px;
+  }
 
-.description {
-  width: 327px;
-  height: 150px;
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  line-height: 24px;
-  color: #344563;
-}
+  .description {
+    width: 327px;
+    height: 150px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    color: #344563;
+  }
 
-.contact {
-  color: #7f8cff;
-}
+  .contact {
+    color: #7f8cff;
+  }
 
-.connect-logo {
-  display: flex;
-}
+  .connect-logo {
+    display: flex;
+  }
 
-.logo-div {
-  display: flex;
-  justify-content: space-between;
-  width: 163.5px;
-  list-style-type: none;
-}
+  .logo-div {
+    display: flex;
+    justify-content: space-between;
+    width: 163.5px;
+    list-style-type: none;
+  }
+
+
 
 .project{
   padding-left: 23px;
+  border: 1px dotted red;
 }
 
-.project1 {
-  width: 327px;
-  height: 552px;
-  border-radius: 16px;
-  border: 1px solid #DFE1E6;
-  background-color: #FFFFFF;
-}
+
+/* PROJECT 1 CSS */
+
+            .project1 {
+              width: 327px;
+              height: 552px;
+              border-radius: 16px;
+              /* border: 1px solid #DFE1E6; */
+              background-color: #FFFFFF;
+              border: 1px dotted red;  
+              display: flex;
+              flex-direction: column;
+            }
+            /* prject1 image */
+            #profile_snapshoot{
+              width: 295px;
+              height: 220px;
+              margin-left: 16px;
+              margin-top: 16px;
+            }
+              /* Project1 H1 tag "Tonic"   */
+              #project1-h1{
+                /* margin-left: 16px; */
+                font-size: 32px;
+                font-weight: 700;
+                color: #172B4D;
+                font-family: Poppins-SemiBold, Arial, Helvetica, sans-serif;
+                line-height: 44px;
+                margin: 12px 0px 0px 16px;
+              }
+              
+              /* Project 1 unorder list holdin canopy Back End Dev 2022 */
+              .project1-ul{
+                padding: 0;
+                margin: 20px 0px 20px 16px;
+              }
+              /* List items inside the .project1-ul   */
+              .project1-ul li{          
+                  color: #7A869A;
+                  margin-left: 20px;
+                  float: left;
+                  font-size: 13px;
+                }
+                  #canopy{
+                    list-style-type: none;
+                    color: #344563;
+                    margin-left: 0;
+                  }
+
+              /* project1 paragraph     */
+              .project1-para{
+                margin: 0;
+                margin-left: 16px;
+                margin-right: 16px;
+                font-family: Poppins-Light, Arial, Helvetica, sans-serif;
+                margin: 0px 16px 16px 16px;
+                text-align: justify;
+              }
+              .project1-button{
+                margin: 0px 0px 20px 16px;
+                display: flex;
+                /* flex-wrap: wrap; */
+              }
+              .project1-button button{
+                margin-right: 20px;
+                border-radius: 8px;
+                padding: 4px 12px 4px 12px;
+                background-color: #EBEBFF;
+                border-width: 0;
+                color: #6070FF;
+                font-size: 12px;
+              }
+
+              /* .project1-button>.button:not(:first-child) {
+                margin-right: 20px;
+               } */
+
+
+              .see-project button{
+                margin: 0px 0px 0px 16px;
+                border-radius: 8px;
+                font-size: 17px;
+                
+                background-color: #EBEBFF;
+                border: 2px solid #6070FF;
+                color: #6070FF;
+                padding: 12px;
+              }
+
+  
+
+
+
 
 .project2 {
   width: 327px;
@@ -130,6 +224,7 @@ nav {
 }
 #p3{
   margin-top: 88px;
+  
 }
 
 .project4 {
@@ -145,7 +240,7 @@ nav {
 .about_myself {
   width: 375px;
   height: 1263px;
-  /* border-radius: 0 100px 0 0; */
+  border-radius: 0 100px 0 0;
   background-color: #FFFFFF;
 }
 #p5{
@@ -160,3 +255,7 @@ nav {
   border-radius: 100px 0 0 0;
 }
 
+.work_station {
+  display: grid;
+  grid-template-columns: auto;
+}
