@@ -256,25 +256,9 @@ li[id^='can'] {
   font-family: Popins-Light, Arial, Helvetica, sans-serif;
 }
 
-.am-menu > div {
-  /* padding: 24px 0 23px 0; */
-
-  /* border: 1px solid red; */
-}
-
-.languages {
-  /* padding-left: 36px; */
-
-  /* justify-content: space-around; */
-}
-
 .lan-text {
   margin-bottom: 36px;
   margin-top: 60px;
-}
-
-.languages div {
-  /* padding-left: 12px; */
 }
 
 .javascript {
@@ -313,14 +297,12 @@ li[id^='can'] {
 
 .frame {
   border-bottom: 1px solid #e5e5e5;
-
-  /* border: 1px solid red; */
+  padding: 24px 0 23px 0;
 }
 
 .skills {
   border-bottom: 1px solid #e5e5e5;
-
-  /* border: 1px solid red; */
+  padding: 24px 0 23px 0;
 }
 
 #p5 {
@@ -349,7 +331,6 @@ li[id^='can'] {
 
 /* CONTACT ME SECTION  */
 .contact_me {
-  /* padding-top: 113.85px; */
   width: 375px;
   height: 779px;
   background-color: #6070ff;
@@ -384,8 +365,4 @@ li[id^='can'] {
   border-radius: 8px;
 }
 
-/*
-.work_station {
-  display: grid;
-  grid-template-columns: auto;
-} */
+
