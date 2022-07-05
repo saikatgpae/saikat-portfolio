@@ -1,11 +1,5 @@
 body {
   background-color: rgb(247, 247, 239);
-
-  /* margin-left: 200px; */
-
-  /* margin-top: 50px; */
-
-  /* margin-bottom: 50px; */
 }
 
 .container {
@@ -14,10 +8,12 @@ body {
 
   /* border: 1px dotted blue; */
   font-family: Poppins-SemiBold, Arial, Helvetica, sans-serif;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
 }
 
+/* HEADER SECTION */
 .main {
   width: 375px;
   height: 812px;
@@ -25,10 +21,6 @@ body {
   background-position: 16.04px 161.47px, 127.18px 151.59px, 323px 152.24px, 341.76px 546.69px, 237px 670.1px, 0 0;
   background-repeat: no-repeat;
   background-color: #e5e5e5;
-
-  /* box-shadow: 1px 1px rgb(43, 182, 233); */
-
-  /* display: flex; */
 }
 
 .header {
@@ -109,14 +101,12 @@ nav {
   list-style-type: none;
 }
 
+/* WORK SECTION */
 .project {
   padding-left: 23px;
-
-  /* border: 1px dotted red; */
 }
 
 /* PROJECT 1 CSS */
-
 .project1 {
   width: 327px;
   height: 552px;
@@ -140,7 +130,6 @@ nav {
 
 /* Project1 H1 tag "Tonic"   */
 .project1-h1 {
-  /* margin-left: 16px; */
   font-size: 32px;
   font-weight: 700;
   color: #172b4d;
@@ -194,10 +183,6 @@ li[id^='can'] {
   font-size: 12px;
 }
 
-/* .project1-button>.button:not(:first-child) {
-      margin-right: 20px;
-      } */
-
 .see-project button {
   margin: 0 0 0 16px;
   border-radius: 8px;
@@ -250,6 +235,7 @@ li[id^='can'] {
   flex-direction: column;
 }
 
+/* ABOUT MUSELF SECTION */
 .about_myself {
   display: flex;
   flex-direction: column;
@@ -259,6 +245,75 @@ li[id^='can'] {
   background-color: #fff;
 
   /* padding: 114px 24px 0 24px; */
+}
+
+.am-menu {
+  /* display: inline-flexbox; */
+
+  /* flex-direction: column; */
+
+  /* justify-content: space-between; */
+
+  /* flex-wrap: wrap; */
+  padding-left: 36px;
+  padding-right: 66px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: Popins-Light, Arial, Helvetica, sans-serif;
+
+  /* border-bottom: 1px solid #E5E5E5; */
+}
+
+.am-menu > div {
+  /* padding: 24px 0 23px 0; */
+
+  /* border: 1px solid red; */
+}
+
+.languages {
+  /* padding-left: 36px; */
+}
+
+.languages div {
+  /* padding-left: 12px; */
+}
+
+.javascript {
+  display: flex;
+}
+
+.html {
+  display: flex;
+}
+
+.css {
+  display: flex;
+}
+
+.ln-image {
+  width: 48px;
+  height: 48px;
+}
+
+.ln-text {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Poppins-light, Arial, Helvetica, sans-serif;
+  line-height: 20px;
+  padding: 21px 12px 21.72px 16px;
+}
+
+.frame {
+  border-bottom: 1px solid #e5e5e5;
+
+  /* border: 1px solid red; */
+}
+
+.skills {
+  border-bottom: 1px solid #e5e5e5;
+
+  /* border: 1px solid red; */
 }
 
 #p5 {
@@ -283,14 +338,20 @@ li[id^='can'] {
   margin-left: 24px;
 }
 
+/* About Myself nav section fro languages, Frame work, html, css secktion */
+
+/* CONTACT ME SECTION  */
 .contact_me {
+  /* padding-top: 113.85px; */
   width: 375px;
   height: 779px;
   background-color: #6070ff;
   border-radius: 100px 0 0 0;
+  margin-top: 113.5px;
 }
 
+/*
 .work_station {
   display: grid;
   grid-template-columns: auto;
-}
+} */
