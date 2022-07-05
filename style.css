@@ -111,11 +111,7 @@ nav {
   width: 327px;
   height: 552px;
   border-radius: 16px;
-
-  /* border: 1px solid #DFE1E6; */
   background-color: #fff;
-
-  /* border: 1px dotted red;   */
   display: flex;
   flex-direction: column;
 }
@@ -162,18 +158,26 @@ li[id^='can'] {
 .project1-para {
   font-size: 15px;
   font-family: Poppins-Light, Arial, Helvetica, sans-serif;
-  margin: 0 16px 16px 16px;
+  margin: 0 16px 0 16px;
   text-align: justify;
 }
 
-.project1-button {
-  margin: 0 0 20px 16px;
-  display: flex;
-
-  /* flex-wrap: wrap; */
+.project-button {
+  margin: 0 0 0 16px;
 }
 
-.project1-button button {
+.project-button ul {
+  display: flex;
+
+  /* margin-left: 16px; */
+  padding-left: 0;
+}
+
+.project-button li {
+  list-style-type: none;
+}
+
+.project-button button {
   margin-right: 20px;
   border-radius: 8px;
   padding: 4px 12px 4px 12px;
@@ -181,6 +185,7 @@ li[id^='can'] {
   border-width: 0;
   color: #6070ff;
   font-size: 12px;
+  list-style-type: none;
 }
 
 .see-project button {
@@ -199,6 +204,8 @@ li[id^='can'] {
   border-radius: 16px;
   border: 1px solid #dfe1e6;
   background-color: #fff;
+  display: flex;
+  flex-direction: column;
 }
 
 #p2 {
@@ -211,6 +218,8 @@ li[id^='can'] {
   border-radius: 16px;
   border: 1px solid #dfe1e6;
   background-color: #fff;
+  display: flex;
+  flex-direction: column;
 }
 
 #p3 {
@@ -219,10 +228,12 @@ li[id^='can'] {
 
 .project4 {
   width: 327px;
-  height: 596px;
+  height: 552px;
   border-radius: 16px;
   border: 1px solid #dfe1e6;
   background-color: #fff;
+  display: flex;
+  flex-direction: column;
 }
 
 #p4 {
@@ -256,9 +267,20 @@ li[id^='can'] {
   font-family: Popins-Light, Arial, Helvetica, sans-serif;
 }
 
+.lang-menu {
+  display: flex;
+}
+
+.lang-logo {
+  padding-top: 60px;
+  padding-left: 26px;
+  float: right;
+}
+
 .lan-text {
   margin-bottom: 36px;
   margin-top: 60px;
+  width: 237px;
 }
 
 .javascript {
@@ -314,6 +336,12 @@ li[id^='can'] {
   font-family: Poppins-SemiBold, Arial, Helvetica, sans-serif;
   font-size: 40px;
   font-weight: 700;
+  color: #172b4d;
+  line-height: 52px;
+  padding: 114px 0 0 24px;
+  height: 101px;
+  text-align: left;
+  word-spacing: 100px;
 }
 
 .am_description {
