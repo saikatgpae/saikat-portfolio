@@ -5,8 +5,6 @@ body {
 .container {
   background-color: #e5e5e5;
   width: 375px;
-
-  /* border: 1px dotted blue; */
   font-family: Poppins-SemiBold, Arial, Helvetica, sans-serif;
   display: grid;
   grid-template-columns: auto;
