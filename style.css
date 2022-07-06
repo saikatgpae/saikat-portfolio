@@ -1,35 +1,31 @@
 body {
-  background-color: beige;
+  background-color: rgb(247, 247, 239);
 }
 
+.container {
+  background-color: #e5e5e5;
+  width: 375px;
+  font-family: Poppins-SemiBold, Arial, Helvetica, sans-serif;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+/* HEADER SECTION */
 .main {
-  position: absolute;
-  border: 1px dotted blue;
   width: 375px;
   height: 812px;
   background-image: url("image/Ellipse11.png"), url("./image/Rectangle7.png"), url("./image/Ellipse3.png"), url("./image/Ellipse12.png"), url("./image/Ellipse4.png"), url("./image/header-background-mobile.svg");
   background-position: 16.04px 161.47px, 127.18px 151.59px, 323px 152.24px, 341.76px 546.69px, 237px 670.1px, 0 0;
   background-repeat: no-repeat;
-  background-color: #dbdbf6;
-  box-shadow: 1px 1px rgb(43, 182, 233);
-
-  /* border: 1px solid red; */
+  background-color: #e5e5e5;
 }
-
-/* .main > div {
-  border: 1px solid red;
-} */
 
 .header {
   color: blue;
   padding: 50px;
-}
-
-nav {
   display: flex;
-  width: 100%;
   justify-content: space-between;
-  height: auto;
 }
 
 .navbar {
@@ -53,18 +49,12 @@ nav {
   width: 371px;
   height: 610px;
   margin-top: 100px;
-}
-
-.body div {
-  margin: auto;
-  width: 90%;
-  margin-top: 12px;
+  margin-left: 24px;
 }
 
 .name {
   width: 327px;
   height: 150px;
-  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
@@ -97,4 +87,312 @@ nav {
   justify-content: space-between;
   width: 163.5px;
   list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+/* WORK SECTION */
+.project {
+  padding-left: 23px;
+}
+
+/* PROJECT 1 CSS */
+.project1 {
+  width: 327px;
+  height: 552px;
+  border-radius: 16px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+/* prject1 image */
+.profile_snapshoot {
+  width: 295px;
+  height: 220px;
+  margin-left: 16px;
+  margin-top: 16px;
+}
+
+/* Project1 H1 tag "Tonic"   */
+.project1-h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #172b4d;
+  font-family: Poppins-SemiBold, Arial, Helvetica, sans-serif;
+  line-height: 44px;
+  margin: 12px 0 0 16px;
+}
+
+/* Project 1 unorder list holdin canopy Back End Dev 2022 */
+.project1-ul {
+  padding: 0;
+  margin: 20px 0 20px 16px;
+}
+
+/* List items inside the .project1-ul   */
+.project1-ul li {
+  color: #7a869a;
+  margin-left: 20px;
+  float: left;
+  font-size: 13px;
+}
+
+li[id^='can'] {
+  color: #344563;
+  list-style-type: none;
+  margin-left: 0;
+}
+
+/* project1 paragraph     */
+.project1-para {
+  font-size: 15px;
+  font-family: Poppins-Light, Arial, Helvetica, sans-serif;
+  margin: 0 16px 0 16px;
+  text-align: justify;
+}
+
+.project-button {
+  margin: 0 0 0 16px;
+}
+
+.project-button ul {
+  display: flex;
+
+  /* margin-left: 16px; */
+  padding-left: 0;
+}
+
+.project-button li {
+  list-style-type: none;
+}
+
+.project-button button {
+  margin-right: 20px;
+  border-radius: 8px;
+  padding: 4px 12px 4px 12px;
+  background-color: #ebebff;
+  border-width: 0;
+  color: #6070ff;
+  font-size: 12px;
+  list-style-type: none;
+}
+
+.see-project button {
+  margin: 0 0 0 16px;
+  border-radius: 8px;
+  font-size: 17px;
+  background-color: #ebebff;
+  border: 2px solid #6070ff;
+  color: #6070ff;
+  padding: 12px;
+}
+
+.project2 {
+  width: 327px;
+  height: 596px;
+  border-radius: 16px;
+  border: 1px solid #dfe1e6;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+#p2 {
+  margin-top: 88px;
+}
+
+.project3 {
+  width: 327px;
+  height: 552px;
+  border-radius: 16px;
+  border: 1px solid #dfe1e6;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+#p3 {
+  margin-top: 88px;
+}
+
+.project4 {
+  width: 327px;
+  height: 552px;
+  border-radius: 16px;
+  border: 1px solid #dfe1e6;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+#p4 {
+  margin-top: 88px;
+}
+
+/* About Myself and Contact Me flexbox */
+.am-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ABOUT MUSELF SECTION */
+.about_myself {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: 1263px;
+  border-radius: 0 100px 0 0;
+  background-color: #fff;
+
+  /* padding: 114px 24px 0 24px; */
+}
+
+.am-menu {
+  padding-left: 36px;
+  padding-right: 66px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: Popins-Light, Arial, Helvetica, sans-serif;
+}
+
+.amlogo-div {
+  margin-left: 24px;
+  display: flex;
+  justify-content: space-between;
+  width: 163.5px;
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.lang-menu {
+  display: flex;
+}
+
+.lang-logo {
+  padding-top: 60px;
+  padding-left: 26px;
+  float: right;
+}
+
+.lan-text {
+  margin-bottom: 36px;
+  margin-top: 60px;
+  width: 237px;
+}
+
+.javascript {
+  display: flex;
+  background-color: #f7f7f9;
+  border: 6px solid white;
+  border-radius: 8px;
+}
+
+.html {
+  display: flex;
+  background-color: #f7f7f9;
+  border: 6px solid white;
+  border-radius: 8px;
+}
+
+.css {
+  display: flex;
+  background-color: #f7f7f9;
+  border: 6px solid white;
+  border-radius: 8px;
+}
+
+.ln-image {
+  width: 48px;
+  height: 48px;
+}
+
+.ln-text {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Poppins-light, Arial, Helvetica, sans-serif;
+  line-height: 20px;
+  padding: 21px 12px 21.72px 16px;
+}
+
+.frame {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 24px 0 23px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 24px 0 23px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#p5 {
+  margin-top: 114px;
+}
+
+/* About Myself heading */
+.am_heading {
+  font-family: Poppins-SemiBold, Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #172b4d;
+  line-height: 52px;
+  padding: 114px 0 0 24px;
+  height: 101px;
+  text-align: left;
+  word-spacing: 100px;
+}
+
+.am_description {
+  font-family: Poppins-Light, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0 16px 16px 16px;
+  text-align: justify;
+}
+
+.am-connect {
+  margin-left: 24px;
+}
+
+/* About Myself nav section fro languages, Frame work, html, css secktion */
+
+/* CONTACT ME SECTION  */
+.contact_me {
+  width: 375px;
+  height: 779px;
+  background-color: #6070ff;
+  border-radius: 100px 0 0 0;
+  margin-top: 113.5px;
+  padding-top: 103px;
+  color: white;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.contact_me h1 {
+  font-size: 40px;
+}
+
+.contact_me p {
+  padding-left: 24px;
+  padding-right: 24px;
+  font-size: 20px;
+}
+
+.contact_me input {
+  width: 327px;
+  height: 48px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+#text-box {
+  width: 327px;
+  height: 180px;
+  border-radius: 8px;
 }
