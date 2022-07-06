@@ -24,13 +24,8 @@ body {
 .header {
   color: blue;
   padding: 50px;
-}
-
-nav {
   display: flex;
-  width: 100%;
   justify-content: space-between;
-  height: auto;
 }
 
 .navbar {
@@ -55,13 +50,6 @@ nav {
   height: 610px;
   margin-top: 100px;
   margin-left: 24px;
-}
-
-.body {
-  /* margin: auto; */
-  /* width: 90%; */
-  /* margin-top: 12px; */
-  
 }
 
 .name {
@@ -269,7 +257,7 @@ li[id^='can'] {
   font-family: Popins-Light, Arial, Helvetica, sans-serif;
 }
 
-.amlogo-div{
+.amlogo-div {
   margin-left: 24px;
   display: flex;
   justify-content: space-between;
@@ -332,11 +320,15 @@ li[id^='can'] {
 .frame {
   border-bottom: 1px solid #e5e5e5;
   padding: 24px 0 23px 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .skills {
   border-bottom: 1px solid #e5e5e5;
   padding: 24px 0 23px 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 #p5 {
