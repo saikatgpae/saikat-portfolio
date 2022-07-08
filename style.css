@@ -14,16 +14,18 @@ body {
 /* HEADER SECTION */
 .main {
   width: 375px;
-  height: 812px;
-  background-image: url("image/Ellipse11.png"), url("./image/Rectangle7.png"), url("./image/Ellipse3.png"), url("./image/Ellipse12.png"), url("./image/Ellipse4.png"), url("./image/header-background-mobile.svg");
-  background-position: 16.04px 161.47px, 127.18px 151.59px, 323px 152.24px, 341.76px 546.69px, 237px 670.1px, 0 0;
+  height: 718px;
+  background-image: url("./image/header-background-mobile.svg");
+  background-position: 0 0;
   background-repeat: no-repeat;
   background-color: #e5e5e5;
 }
 
 .header {
   color: blue;
-  padding: 50px;
+  padding-top: 30px;
+  padding-left: 24px;
+  padding-right: 24px;
   display: flex;
   justify-content: space-between;
 }
@@ -46,39 +48,49 @@ body {
 }
 
 .body {
-  width: 371px;
+  display: flex;
+  flex-direction: column;
   height: 610px;
-  margin-top: 100px;
-  margin-left: 24px;
+  background-image: url("./image/header_background.svg");
+  background-position: 0 0;
 }
 
 .name {
-  width: 327px;
-  height: 150px;
+  margin: 0 24px 12px 24px;
   font-style: normal;
   font-weight: 700;
-  font-size: 25px;
-  text-align: left;
+  font-size: 40px;
   line-height: 52px;
   color: #172b4d;
-  margin-top: 12px;
+}
+
+.name h1 {
+  margin: 90px 0 0 0;
+}
+
+.name h3 {
+  margin: 0 0 0 0;
 }
 
 .description {
+  font-family: Popinns-light, Arial, Helvetica, sans-serif;
+  margin: 0 24px 0 24px;
+  margin-top: 0;
   width: 327px;
   height: 150px;
   font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   line-height: 24px;
   color: #344563;
 }
 
 .contact {
+  margin: 0 0 12px 24px;
   color: #7f8cff;
 }
 
 .connect-logo {
+  margin-left: 24px;
   display: flex;
 }
 
@@ -92,6 +104,10 @@ body {
 }
 
 /* WORK SECTION */
+.work_section {
+  margin-top: 114px;
+}
+
 .project {
   padding-left: 23px;
 }
@@ -158,8 +174,6 @@ li[id^='can'] {
 
 .project-button ul {
   display: flex;
-
-  /* margin-left: 16px; */
   padding-left: 0;
 }
 
