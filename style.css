@@ -387,6 +387,8 @@ li[id^='can'] {
 /* CONTACT ME SECTION  */
 
 .contact_me {
+  display: flex;
+  flex-direction: column;
   background-image: url("./image/contact-form-background.svg");
   background-repeat: no-repeat;
   background-position: right;
@@ -428,3 +430,33 @@ li[id^='can'] {
   padding-left: 0;
   margin-left: 0;
 }
+
+.contact button{
+  margin: 0 0 0 0;
+  
+  border-radius: 8px;
+  font-size: 17px;
+  background-color: #ebebff;
+  border: 2px solid #6070ff;
+  color: #6070ff;
+  padding: 12px;
+
+}
+
+.get-in-touch{
+  margin-left: 24px;
+}
+
+.get-in-touch button{
+  margin-top: 22px;
+  float: left ;
+}
+
+.end-line{
+    border-radius: 20px;
+    height: 5px;
+    background: black;
+    width: 134px;
+    margin-top: 32px;
+}
+
