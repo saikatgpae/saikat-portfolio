@@ -194,7 +194,7 @@ li[id^='can'] {
 }
 
 .see-project button {
-  margin: 0 0 0 16px;
+  margin: 30px 0 0 16px;
   border-radius: 8px;
   font-size: 17px;
   background-color: #ebebff;
