@@ -377,6 +377,9 @@ li[id^='can'] {
 
 /* CONTACT ME SECTION  */
 .contact_me {
+  background-image: url("./image/contact-form-background.svg");
+  background-repeat: no-repeat;
+  background-position: right;
   width: 375px;
   height: 779px;
   background-color: #6070ff;
@@ -407,6 +410,6 @@ li[id^='can'] {
 
 #text-box {
   width: 327px;
-  height: 180px;
+  height: 160px;
   border-radius: 8px;
 }
