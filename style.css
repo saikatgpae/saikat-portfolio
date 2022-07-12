@@ -263,7 +263,7 @@ li[id^='can'] {
 }
 
 .am-menu {
-  padding-left: 0px;
+  padding-left: 0;
   padding-right: 66px;
   font-size: 20px;
   line-height: 24px;
@@ -330,7 +330,8 @@ li[id^='can'] {
   line-height: 20px;
   padding: 21px 12px 21.72px 16px;
 }
-.languages{
+
+.languages {
   margin-left: 36px;
 }
 
@@ -380,10 +381,6 @@ li[id^='can'] {
 
 /* About Myself nav section fro languages, Frame work, html, css secktion */
 
-
-
-
-
 /* CONTACT ME SECTION  */
 
 .contact_me {
@@ -411,6 +408,7 @@ li[id^='can'] {
   padding-left: 24px;
   padding-right: 24px;
   font-size: 20px;
+  margin-bottom: 87px;
 }
 
 .contact_me input {
@@ -425,48 +423,41 @@ li[id^='can'] {
   height: 160px;
   border-radius: 8px;
 }
-.contact{
+
+.contact-ul {
   list-style: none;
   padding-left: 0;
   margin-left: 0;
 }
 
-.contact button{
+.contact-ul button {
   margin: 0 0 0 0;
-  
   border-radius: 8px;
   font-size: 17px;
   background-color: #ebebff;
   border: 2px solid #6070ff;
   color: #6070ff;
   padding: 12px;
-
 }
 
-.get-in-touch{
+.get-in-touch {
   margin-left: 24px;
 }
 
-.get-in-touch button{
+.get-in-touch button {
   margin-top: 22px;
-  float: left ;
+  float: left;
 }
 
-.end-line{
-    border-radius: 20px;
-    height: 5px;
-    background: black;
-    width: 134px;
-    margin-top: 32px;
+.end-line {
+  border-radius: 20px;
+  height: 5px;
+  background: black;
+  width: 134px;
+  margin-top: 32px;
 }
 
 .contact_me h2 {
   font-size: 40px;
   margin-top: 103px;
 }
-
-.contact_me p {
-  font-size: 20px;
-  margin-bottom: 87px;
-}
-
