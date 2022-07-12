@@ -460,3 +460,13 @@ li[id^='can'] {
     margin-top: 32px;
 }
 
+.contact_me h2 {
+  font-size: 40px;
+  margin-top: 103px;
+}
+
+.contact_me p {
+  font-size: 20px;
+  margin-bottom: 87px;
+}
+
