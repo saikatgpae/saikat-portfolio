@@ -263,7 +263,7 @@ li[id^='can'] {
 }
 
 .am-menu {
-  padding-left: 36px;
+  padding-left: 0px;
   padding-right: 66px;
   font-size: 20px;
   line-height: 24px;
@@ -330,8 +330,12 @@ li[id^='can'] {
   line-height: 20px;
   padding: 21px 12px 21.72px 16px;
 }
+.languages{
+  margin-left: 36px;
+}
 
 .frame {
+  margin-left: 36px;
   border-bottom: 1px solid #e5e5e5;
   padding: 24px 0 23px 0;
   display: flex;
@@ -339,6 +343,7 @@ li[id^='can'] {
 }
 
 .skills {
+  margin-left: 36px;
   border-bottom: 1px solid #e5e5e5;
   padding: 24px 0 23px 0;
   display: flex;
@@ -375,7 +380,12 @@ li[id^='can'] {
 
 /* About Myself nav section fro languages, Frame work, html, css secktion */
 
+
+
+
+
 /* CONTACT ME SECTION  */
+
 .contact_me {
   background-image: url("./image/contact-form-background.svg");
   background-repeat: no-repeat;
@@ -412,4 +422,9 @@ li[id^='can'] {
   width: 327px;
   height: 160px;
   border-radius: 8px;
+}
+.contact{
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
 }
