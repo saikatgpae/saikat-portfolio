@@ -263,7 +263,7 @@ li[id^='can'] {
 }
 
 .am-menu {
-  padding-left: 36px;
+  padding-left: 0;
   padding-right: 66px;
   font-size: 20px;
   line-height: 24px;
@@ -331,7 +331,12 @@ li[id^='can'] {
   padding: 21px 12px 21.72px 16px;
 }
 
+.languages {
+  margin-left: 36px;
+}
+
 .frame {
+  margin-left: 36px;
   border-bottom: 1px solid #e5e5e5;
   padding: 24px 0 23px 0;
   display: flex;
@@ -339,6 +344,7 @@ li[id^='can'] {
 }
 
 .skills {
+  margin-left: 36px;
   border-bottom: 1px solid #e5e5e5;
   padding: 24px 0 23px 0;
   display: flex;
@@ -376,7 +382,10 @@ li[id^='can'] {
 /* About Myself nav section fro languages, Frame work, html, css secktion */
 
 /* CONTACT ME SECTION  */
+
 .contact_me {
+  display: flex;
+  flex-direction: column;
   background-image: url("./image/contact-form-background.svg");
   background-repeat: no-repeat;
   background-position: right;
@@ -399,17 +408,65 @@ li[id^='can'] {
   padding-left: 24px;
   padding-right: 24px;
   font-size: 20px;
+  margin-bottom: 29px;
 }
 
 .contact_me input {
-  width: 327px;
   height: 48px;
   border-radius: 8px;
   margin-bottom: 20px;
+  padding-left: 16px;
+  width: 311px;
 }
 
 #text-box {
   width: 327px;
   height: 160px;
   border-radius: 8px;
+}
+
+.contact-ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.contact-ul button {
+  margin: 0 0 0 0;
+  border-radius: 8px;
+  font-size: 17px;
+  background-color: #ebebff;
+  border: 2px solid #6070ff;
+  color: #6070ff;
+  padding: 12px;
+}
+
+.get-in-touch {
+  margin-left: 24px;
+}
+
+.get-in-touch button {
+  margin-top: 22px;
+  float: left;
+}
+
+.end-line {
+  float: left;
+  border-radius: 20px;
+  height: 5px;
+  width: 134px;
+  margin-top: 80px;
+  border: 2px solid black;
+  background-color: black;
+}
+
+.contact_me h2 {
+  font-size: 40px;
+  margin-top: 103px;
+}
+
+.contact_me #text-box {
+  padding-left: 16px;
+  padding-top: 15px;
+  width: 311px;
 }
