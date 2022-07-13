@@ -408,14 +408,15 @@ li[id^='can'] {
   padding-left: 24px;
   padding-right: 24px;
   font-size: 20px;
-  margin-bottom: 87px;
+  margin-bottom: 29px;
 }
 
 .contact_me input {
-  width: 327px;
   height: 48px;
   border-radius: 8px;
   margin-bottom: 20px;
+  padding-left: 16px;
+  width: 311px;
 }
 
 #text-box {
@@ -450,14 +451,22 @@ li[id^='can'] {
 }
 
 .end-line {
+  float: left;
   border-radius: 20px;
   height: 5px;
-  background: black;
   width: 134px;
-  margin-top: 32px;
+  margin-top: 80px;
+  border: 2px solid black;
+  background-color: black;
 }
 
 .contact_me h2 {
   font-size: 40px;
   margin-top: 103px;
+}
+
+.contact_me #text-box {
+  padding-left: 16px;
+  padding-top: 15px;
+  width: 311px;
 }
