@@ -10,7 +10,6 @@
   grid-template-rows: auto;
 }
 
-
 /* HEADER SECTION */
 .main {
   width: 100%;
@@ -106,14 +105,9 @@
   margin-top: 0;
 }
 
-
-
-
 /* WORK SECTION */
 .work_section {
   margin-top: 114px;
-
-  /* justify-content: center; */
 }
 
 .project {
