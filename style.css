@@ -557,6 +557,13 @@ li[id^='can'] {
     width: 90%;
     height: 90%;
     margin: 6% 0 0 6%;
+    transition: all 1s;
+  }
+
+  .project > div img:hover {
+    margin: 0 0 0 0;
+    width: 100%;
+    height: 100%;
   }
 
   .project-content {
@@ -587,6 +594,11 @@ li[id^='can'] {
   .lang-button div {
     display: flex;
     flex-direction: column;
+    transition: background-color 0.25s;
+  }
+
+  .lang-button div:hover {
+    background-color: lightgray;
   }
 
   .ln-image {
@@ -623,6 +635,10 @@ li[id^='can'] {
     background-color: white;
   }
 
+  .project-button ul button {
+    transition: background-color, color 0.25s;
+  }
+
   .see-project button:hover {
     background-color: #396df2;
     color: white;
@@ -631,5 +647,10 @@ li[id^='can'] {
   .contact-ul button:hover {
     background-color: #396df2;
     color: white;
+  }
+
+  .project-button ul button:hover {
+    color: white;
+    background-color: #396df2;
   }
 }
