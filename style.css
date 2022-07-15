@@ -45,9 +45,24 @@
 }
 
 .name-logo {
-  width: 40px;
-  height: 60px;
+  width:100px;
+  height: 100px;
 }
+
+.name-logo:hover{
+  animation-duration: .5s;
+  animation-name: rotate;
+}
+
+@keyframes rotate{
+  0%{
+    transform: rotate(0);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
 
 .body {
   display: flex;
@@ -55,7 +70,6 @@
   height: 610px;
   background-image: url("./image/header_background.svg");
   background-repeat: no-repeat;
-  background-size: 100%;
 }
 
 .name {
@@ -116,6 +130,7 @@
   padding-left: 24px;
   padding-right: 24px;
 }
+
 
 .project > div {
   width: 100%;
@@ -383,10 +398,6 @@ li[id^='can'] {
   text-align: justify;
 }
 
-.am-connect {
-  /* margin-left: 24px; */
-}
-
 .lang-menu {
   display: flex;
   justify-content: space-between;
@@ -429,6 +440,13 @@ li[id^='can'] {
   margin-bottom: 20px;
   padding-left: 16px;
   width: 311px;
+  font-size: 17px;
+  transition: font-size .25s ;
+}
+
+.contact_me input:hover{
+  font-size: 25px;
+
 }
 
 #text-box {
@@ -441,6 +459,10 @@ li[id^='can'] {
   list-style: none;
   padding-left: 0;
   margin-left: 0;
+}
+
+.contact-ul input{
+  
 }
 
 .contact-ul button {
@@ -541,6 +563,7 @@ li[id^='can'] {
     width: 90%;
     height: 90%;
     margin: 6% 0 0 6%;
+   
   }
 
   .project-content {
@@ -616,4 +639,5 @@ li[id^='can'] {
     background-color: #396df2;
     color: white;
   }
+  
 }
