@@ -45,24 +45,24 @@
 }
 
 .name-logo {
-  width:100px;
+  width: 100px;
   height: 100px;
 }
 
-.name-logo:hover{
-  animation-duration: .5s;
+.name-logo:hover {
+  animation-duration: 0.5s;
   animation-name: rotate;
 }
 
-@keyframes rotate{
-  0%{
+@keyframes rotate {
+  0% {
     transform: rotate(0);
   }
-  100%{
+
+  100% {
     transform: rotate(360deg);
   }
 }
-
 
 .body {
   display: flex;
@@ -130,7 +130,6 @@
   padding-left: 24px;
   padding-right: 24px;
 }
-
 
 .project > div {
   width: 100%;
@@ -441,12 +440,11 @@ li[id^='can'] {
   padding-left: 16px;
   width: 311px;
   font-size: 17px;
-  transition: font-size .25s ;
+  transition: font-size 0.25s;
 }
 
-.contact_me input:hover{
+.contact_me input:hover {
   font-size: 25px;
-
 }
 
 #text-box {
@@ -459,10 +457,6 @@ li[id^='can'] {
   list-style: none;
   padding-left: 0;
   margin-left: 0;
-}
-
-.contact-ul input{
-  
 }
 
 .contact-ul button {
@@ -563,7 +557,6 @@ li[id^='can'] {
     width: 90%;
     height: 90%;
     margin: 6% 0 0 6%;
-   
   }
 
   .project-content {
@@ -639,5 +632,4 @@ li[id^='can'] {
     background-color: #396df2;
     color: white;
   }
-  
 }
