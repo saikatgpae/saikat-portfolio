@@ -1,24 +1,23 @@
-body {
-  background-color: rgb(247, 247, 239);
-}
 
 .container {
+  justify-content: center;
   background-color: #e5e5e5;
-  width: 375px;
-  font-family: Poppins-SemiBold, Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
 }
 
+.container button {
+  cursor: pointer;
+}
+
 /* HEADER SECTION */
 .main {
-  width: 375px;
+  width: 100%;
   height: 718px;
-  background-image: url("./image/header-background-mobile.svg");
-  background-position: 0 0;
-  background-repeat: no-repeat;
-  background-color: #e5e5e5;
+  background-color: #ffff;
+  border-radius: 0 0 0 100px;
 }
 
 .header {
@@ -38,11 +37,14 @@ body {
 
 .navbar div {
   width: 30px;
+  height: 0.5px;
   border: 1px solid blue;
   margin: 6px;
+  background-color: blue;
+  font-size: 0%;
 }
 
-.logo {
+.name-logo {
   width: 40px;
   height: 60px;
 }
@@ -52,7 +54,8 @@ body {
   flex-direction: column;
   height: 610px;
   background-image: url("./image/header_background.svg");
-  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .name {
@@ -76,7 +79,8 @@ body {
   font-family: Popinns-light, Arial, Helvetica, sans-serif;
   margin: 0 24px 0 24px;
   margin-top: 0;
-  width: 327px;
+
+  /* width: 327px; */
   height: 150px;
   font-size: 16px;
   font-weight: 400;
@@ -85,7 +89,7 @@ body {
 }
 
 .contact {
-  margin: 0 0 12px 24px;
+  margin: 12px 0 12px 24px;
   color: #7f8cff;
 }
 
@@ -109,12 +113,18 @@ body {
 }
 
 .project {
-  padding-left: 23px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.project > div {
+  width: 100%;
+  margin: 0 0 0 0;
 }
 
 /* PROJECT 1 CSS */
 .project1 {
-  width: 327px;
+  /* width: 327px; */
   height: 552px;
   border-radius: 16px;
   background-color: #fff;
@@ -203,7 +213,7 @@ li[id^='can'] {
 }
 
 .project2 {
-  width: 327px;
+  /* width: 327px; */
   height: 596px;
   border-radius: 16px;
   border: 1px solid #dfe1e6;
@@ -217,7 +227,7 @@ li[id^='can'] {
 }
 
 .project3 {
-  width: 327px;
+  /* width: 327px; */
   height: 552px;
   border-radius: 16px;
   border: 1px solid #dfe1e6;
@@ -231,7 +241,7 @@ li[id^='can'] {
 }
 
 .project4 {
-  width: 327px;
+  /* width: 327px; */
   height: 552px;
   border-radius: 16px;
   border: 1px solid #dfe1e6;
@@ -254,7 +264,7 @@ li[id^='can'] {
 .about_myself {
   display: flex;
   flex-direction: column;
-  width: 375px;
+  width: 100%;
   height: 1263px;
   border-radius: 0 100px 0 0;
   background-color: #fff;
@@ -279,10 +289,6 @@ li[id^='can'] {
   list-style-type: none;
   padding-left: 0;
   margin-top: 0;
-}
-
-.lang-menu {
-  display: flex;
 }
 
 .lang-logo {
@@ -361,11 +367,13 @@ li[id^='can'] {
   font-size: 40px;
   font-weight: 700;
   color: #172b4d;
-  line-height: 52px;
-  padding: 114px 0 0 24px;
+
+  /* line-height: 52px; */
+  padding: 114px 0 12px 24px;
   height: 101px;
   text-align: left;
   word-spacing: 100px;
+  margin: 0 0 0 0;
 }
 
 .am_description {
@@ -376,7 +384,12 @@ li[id^='can'] {
 }
 
 .am-connect {
-  margin-left: 24px;
+  /* margin-left: 24px; */
+}
+
+.lang-menu {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* About Myself nav section fro languages, Frame work, html, css secktion */
@@ -389,7 +402,6 @@ li[id^='can'] {
   background-image: url("./image/contact-form-background.svg");
   background-repeat: no-repeat;
   background-position: right;
-  width: 375px;
   height: 779px;
   background-color: #6070ff;
   border-radius: 100px 0 0 0;
@@ -439,9 +451,7 @@ li[id^='can'] {
   border: 2px solid #6070ff;
   color: #6070ff;
   padding: 12px;
-}
-
-.get-in-touch {
+  float: left;
   margin-left: 24px;
 }
 
@@ -469,4 +479,141 @@ li[id^='can'] {
   padding-left: 16px;
   padding-top: 15px;
   width: 311px;
+}
+
+@media screen and (min-width: 768px) {
+  .body {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .body > div {
+    margin-left: 260px;
+    margin-right: 260px;
+  }
+
+  .body > h3 {
+    margin-left: 260px;
+  }
+
+  .main {
+    width: 100%;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .navbar div {
+    border: none;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    width: auto;
+    height: auto;
+    font-weight: lighter;
+    margin-left: 32px;
+  }
+
+  .header {
+    margin-right: 154px;
+  }
+
+  .work_section {
+    /* all: unset; */
+    width: 100%;
+  }
+
+  .project {
+    padding: 0 142px 40px 142px;
+  }
+
+  .project > div {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: auto;
+
+    /* margin: 24px 24px 24PX 24px; */
+  }
+
+  .project > div img {
+    width: 90%;
+    height: 90%;
+    margin: 6% 0 0 6%;
+  }
+
+  .project-content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 48px;
+    margin-left: 23px;
+    margin-bottom: 120px;
+    margin-right: 46px;
+  }
+
+  .about_myself {
+    width: 100%;
+  }
+
+  .am-main {
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }
+
+  .lang-button {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    margin-right: 15%;
+  }
+
+  .lang-button div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ln-image {
+    margin-left: 12px;
+    margin-top: 12px;
+  }
+
+  .contact_me {
+    width: auto;
+  }
+
+  .contact_me p {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  .contact-ul input {
+    width: 447px;
+    border-radius: 0;
+    border-style: none;
+  }
+
+  .contact-ul #text-box {
+    width: 447px;
+    border-radius: 0;
+  }
+
+  .contact-ul button {
+    float: none;
+    background-color: white;
+  }
+
+  .see-project button {
+    background-color: white;
+  }
+
+  .see-project button:hover {
+    background-color: #396df2;
+    color: white;
+  }
+
+  .contact-ul button:hover {
+    background-color: #396df2;
+    color: white;
+  }
 }
