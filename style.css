@@ -1,13 +1,15 @@
 
 .container {
   justify-content: center;
-
-  /* justify-items: center; */
   background-color: #e5e5e5;
-  font-family: 'Poppins', sans-serif;;
+  font-family: 'Poppins', sans-serif;
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
+}
+
+.container button {
+  cursor: pointer;
 }
 
 /* HEADER SECTION */
@@ -585,15 +587,31 @@ li[id^='can'] {
 
   .contact-ul input {
     width: 50%;
+    border-radius: 0;
+    border-style: none;
   }
 
   .contact-ul #text-box {
     width: 50%;
+    border-radius: 0;
   }
 
   .contact-ul button {
     float: none;
+    background-color: white;
+  }
 
-    /* justify-content: center; */
+  .see-project button {
+    background-color: white;
+  }
+
+  .see-project button:hover {
+    background-color: #396df2;
+    color: white;
+  }
+
+  .contact-ul button:hover {
+    background-color: #396df2;
+    color: white;
   }
 }
