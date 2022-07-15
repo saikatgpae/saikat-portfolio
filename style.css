@@ -549,6 +549,8 @@ li[id^='can'] {
     flex-direction: column;
     margin-top: 48px;
     margin-left: 23px;
+    margin-bottom: 120px;
+    margin-right: 46px;
   }
 
   .about_myself {
