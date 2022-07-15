@@ -4,7 +4,7 @@
 
   /* justify-items: center; */
   background-color: #e5e5e5;
-  font-family: Poppins-SemiBold, Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;;
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
@@ -543,6 +543,7 @@ li[id^='can'] {
 
   .project-content {
     display: flex;
+    justify-content: space-around;
     flex-direction: column;
     margin-top: 48px;
     margin-left: 23px;
