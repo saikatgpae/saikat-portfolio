@@ -595,6 +595,11 @@ li[id^='can'] {
   .lang-button div {
     display: flex;
     flex-direction: column;
+    transition: background-color .25s;
+  }
+
+  .lang-button div:hover {
+    background-color: lightgray;
   }
 
   .ln-image {
