@@ -419,7 +419,7 @@ li[id^='can'] {
   background-repeat: no-repeat;
   background-position: right;
   height: 779px;
-  background-color: #6070ff;
+  background-color: #1a30ff;
   border-radius: 100px 0 0 0;
   margin-top: 113.5px;
   padding-top: 103px;
@@ -471,7 +471,7 @@ li[id^='can'] {
   font-size: 17px;
   background-color: #ebebff;
   border: 2px solid #6070ff;
-  color: #6070ff;
+  color: #1430ff;
   padding: 12px;
   float: left;
   margin-left: 24px;
@@ -592,6 +592,14 @@ li[id^='can'] {
   .am-main {
     display: grid;
     grid-template-columns: 40% 60%;
+  }
+
+  .am-content {
+    margin-left: 142px;
+  }
+
+  .amlogo-div {
+    margin-left: 0;
   }
 
   .lang-button {
