@@ -152,6 +152,13 @@
   height: 220px;
   margin-left: 16px;
   margin-top: 16px;
+  transition: margin 1s;
+}
+
+.profile_snapshoot:hover{
+  margin: 0 0 0 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* Project1 H1 tag "Tonic"   */
@@ -559,12 +566,12 @@ li[id^='can'] {
     margin: 6% 0 0 6%;
     transition: all 1s;
   }
-
+/* 
   .project > div img:hover {
     margin: 0 0 0 0;
     width: 100%;
     height: 100%;
-  }
+  } */
 
   .project-content {
     display: flex;
