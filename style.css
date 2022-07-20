@@ -131,11 +131,6 @@
 }
 
 .project > div {
-  width: 100%;
-  margin: 0 0 0 0;
-}
-
-.project > div{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -143,12 +138,13 @@
   border: 1px solid #dfe1e6;
   background-color: #fff;
   padding-top: 16px;
-
+  width: 100%;
+  margin: 0 0 0 0;
 }
 
 .profile_snapshoot {
   width: 90%;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 /* Project1 H1 tag "Tonic"   */
@@ -225,9 +221,9 @@ li[id^='can'] {
 #p2 {
   margin-top: 88px;
 }
+
 #p3 {
   margin-top: 88px;
-
 }
 
 #p4 {
@@ -515,9 +511,9 @@ li[id^='can'] {
     padding: 20px 20px 20px 20px;
   }
 
-.profile_snapshoot:hover{
-  width: 100%;
-}
+  .profile_snapshoot:hover {
+    width: 100%;
+  }
 
   .project-content {
     display: flex;
