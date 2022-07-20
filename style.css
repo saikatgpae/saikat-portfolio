@@ -74,19 +74,18 @@
 
 .name {
   margin: 0 24px 12px 24px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
   line-height: 52px;
   color: #172b4d;
 }
 
 .name h1 {
   margin: 90px 0 0 0;
+  font-size: 40px;
 }
 
-.name h3 {
+.name h2 {
   margin: 0 0 0 0;
+  font-size: 40px;
 }
 
 .description {
@@ -104,7 +103,7 @@
 
 .contact {
   margin: 12px 0 12px 24px;
-  color: #7f8cff;
+  color: #142cff;
 }
 
 .connect-logo {
@@ -132,26 +131,20 @@
 }
 
 .project > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px;
+  border: 1px solid #dfe1e6;
+  background-color: #fff;
+  padding-top: 16px;
   width: 100%;
   margin: 0 0 0 0;
 }
 
-/* PROJECT 1 CSS */
-.project1 {
-  /* width: 327px; */
-  height: 552px;
-  border-radius: 16px;
-  background-color: #fff;
-  display: flex;
-  flex-direction: column;
-}
-
-/* prject1 image */
 .profile_snapshoot {
-  width: 295px;
-  height: 220px;
-  margin-left: 16px;
-  margin-top: 16px;
+  width: 90%;
+  transition: all 0.5s;
 }
 
 /* Project1 H1 tag "Tonic"   */
@@ -166,13 +159,13 @@
 
 /* Project 1 unorder list holdin canopy Back End Dev 2022 */
 .project1-ul {
-  padding: 0;
+  padding: 0 0 10px 0;
   margin: 20px 0 20px 16px;
 }
 
 /* List items inside the .project1-ul   */
 .project1-ul li {
-  color: #7a869a;
+  color: #444c5a;
   margin-left: 20px;
   float: left;
   font-size: 13px;
@@ -189,7 +182,6 @@ li[id^='can'] {
   font-size: 15px;
   font-family: Poppins-Light, Arial, Helvetica, sans-serif;
   margin: 0 16px 0 16px;
-  text-align: justify;
 }
 
 .project-button {
@@ -211,57 +203,27 @@ li[id^='can'] {
   padding: 4px 12px 4px 12px;
   background-color: #ebebff;
   border-width: 0;
-  color: #6070ff;
+  color: #0018f0;
   font-size: 12px;
   list-style-type: none;
 }
 
 .see-project button {
-  margin: 0 0 0 16px;
+  margin: 0 0 30px 16px;
   border-radius: 8px;
   font-size: 17px;
   background-color: #ebebff;
   border: 2px solid #6070ff;
-  color: #6070ff;
+  color: #1430ff;
   padding: 12px;
-}
-
-.project2 {
-  /* width: 327px; */
-  height: 596px;
-  border-radius: 16px;
-  border: 1px solid #dfe1e6;
-  background-color: #fff;
-  display: flex;
-  flex-direction: column;
 }
 
 #p2 {
   margin-top: 88px;
 }
 
-.project3 {
-  /* width: 327px; */
-  height: 552px;
-  border-radius: 16px;
-  border: 1px solid #dfe1e6;
-  background-color: #fff;
-  display: flex;
-  flex-direction: column;
-}
-
 #p3 {
   margin-top: 88px;
-}
-
-.project4 {
-  /* width: 327px; */
-  height: 552px;
-  border-radius: 16px;
-  border: 1px solid #dfe1e6;
-  background-color: #fff;
-  display: flex;
-  flex-direction: column;
 }
 
 #p4 {
@@ -394,7 +356,6 @@ li[id^='can'] {
   font-family: Poppins-Light, Arial, Helvetica, sans-serif;
   font-size: 16px;
   margin: 0 16px 16px 16px;
-  text-align: justify;
 }
 
 .lang-menu {
@@ -413,7 +374,7 @@ li[id^='can'] {
   background-repeat: no-repeat;
   background-position: right;
   height: 779px;
-  background-color: #6070ff;
+  background-color: #1a30ff;
   border-radius: 100px 0 0 0;
   margin-top: 113.5px;
   padding-top: 103px;
@@ -465,7 +426,7 @@ li[id^='can'] {
   font-size: 17px;
   background-color: #ebebff;
   border: 2px solid #6070ff;
-  color: #6070ff;
+  color: #1430ff;
   padding: 12px;
   float: left;
   margin-left: 24px;
@@ -537,7 +498,6 @@ li[id^='can'] {
   }
 
   .work_section {
-    /* all: unset; */
     width: 100%;
   }
 
@@ -548,22 +508,11 @@ li[id^='can'] {
   .project > div {
     display: grid;
     grid-template-columns: 50% 50%;
-    width: auto;
-
-    /* margin: 24px 24px 24PX 24px; */
+    padding: 20px 20px 20px 20px;
   }
 
-  .project > div img {
-    width: 90%;
-    height: 90%;
-    margin: 6% 0 0 6%;
-    transition: all 1s;
-  }
-
-  .project > div img:hover {
-    margin: 0 0 0 0;
+  .profile_snapshoot:hover {
     width: 100%;
-    height: 100%;
   }
 
   .project-content {
@@ -583,6 +532,14 @@ li[id^='can'] {
   .am-main {
     display: grid;
     grid-template-columns: 40% 60%;
+  }
+
+  .am-content {
+    margin-left: 142px;
+  }
+
+  .amlogo-div {
+    margin-left: 0;
   }
 
   .lang-button {
