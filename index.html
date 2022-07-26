@@ -9,47 +9,53 @@
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,600&display=swap');
     </style>
-        
+    <script src="./javascript.js"></script>
     <title>Saikat Portfolio</title>
 </head>
 <body>
     <div class="container">
         <section class="main"> 
             <header class="header">
-                    <div>
+                    <div class="header-logo">
                         <a href="./index.html">
                             <img class="name-logo" src="./image/logo.png" alt="Personal logo">
                         </a>
                     </div>
-                    <div class="navbar">
-                        <div>Portfolio</div>
-                        <div>About</div>
-                        <div>Contact</div>
+                    <div class="navbar" onclick="menuChange(this)">
+                        <div class="bar1">Portfolio</div>
+                        <div class="bar2">About</div>
+                        <div class="bar3">Contact</div>
                     </div>
             </header>
             <section class="body">
-                <div class="name">
-                    <h1>I’m Saikat</h1>
-                    <h2>Glad to see you!</h2>
-                    <!-- <h3>you!</h3> -->
+                <div class="onclick">
+                    <a href=""><h5>Portfolio</h5></a>
+                    <a href=""><h5>About</h5></a>
+                    <a href=""><h5>Contact</h5></a>
                 </div>
-                <div class="description">
-                    I’m a software developer! I can help you build a product , feature or website Look through 
-                        some of my work and experience! If you like what you see and have a project you need coded, 
-                        don’t hestiate to contact me.
-                </div>
-                <h3 class="contact">LET'S CONNECT</h3>
-                <div class="connect-logo">
-                    <div class="logo">
-                        <ul class="logo-div">
-                            <li><a href=""><img src="./image/twiter.svg" alt="twiter logo"></a></li>
-                            <li><a href=""><img src="./image/Vector.png" alt="linkdin logo"></a></li>
-                            <li><a href=""><img src="./image/M.svg" alt="Medium logo"></a></li>
-                            <li><a href=""><img src="./image/Vector(3).svg" alt="gitHub logo"></a></li>
-                            <li><a href=""><img src="./image/Vector(4).svg" alt="angellist logo"></a></li>
-                        </ul>
+                <div class="body-content">
+                    <div class="name">
+                        <h1>I’m Saikat</h1>
+                        <h2>Glad to see you!</h2>
                     </div>
-                </div>    
+                    <div class="description">
+                        I’m a software developer! I can help you build a product , feature or website Look through 
+                            some of my work and experience! If you like what you see and have a project you need coded, 
+                            don’t hestiate to contact me.
+                    </div>
+                    <h3 class="contact">LET'S CONNECT</h3>
+                    <div class="connect-logo">
+                        <div class="logo">
+                            <ul class="logo-div">
+                                <li><a href=""><img src="./image/twiter.svg" alt="twiter logo"></a></li>
+                                <li><a href=""><img src="./image/Vector.png" alt="linkdin logo"></a></li>
+                                <li><a href=""><img src="./image/M.svg" alt="Medium logo"></a></li>
+                                <li><a href=""><img src="./image/Vector(3).svg" alt="gitHub logo"></a></li>
+                                <li><a href=""><img src="./image/Vector(4).svg" alt="angellist logo"></a></li>
+                            </ul>
+                        </div>
+                    </div>    
+                </div>
             </section>
         </section>
         <section class="work_section">

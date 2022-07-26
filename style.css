@@ -1,4 +1,6 @@
-
+body{
+  margin: 0 0 0 0;
+}
 .container {
   justify-content: center;
   background-color: #e5e5e5;
@@ -29,20 +31,84 @@
   justify-content: space-between;
 }
 
+.headertrans{
+  background-color: #6070ff;
+}
+
+.onclick{
+  display: none;
+}
+
+.clicked{
+  display: block;
+  color: white;
+  /* font-size: 32px; */
+  /* font-weight: 600; */
+  /* margin-left: 28px; */
+  text-decoration: none;
+}
+
+.clicked a:link, .clicked a:visited {
+  color: white;
+  text-decoration: none;
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.inVisible{
+  visibility: hidden;
+}
+
+.display-none{
+  display: none;
+}
+
 .navbar {
   margin: auto 0;
   display: block;
   cursor: pointer;
 }
 
-.navbar div {
+.bar1, .bar2, .bar3 {
   width: 30px;
-  height: 0.5px;
   border: 1px solid blue;
   margin: 6px;
   background-color: blue;
   font-size: 0%;
 }
+
+
+.change .bar1 {
+  background-color: white;
+  border: 1px solid white;
+  transform: rotate(-45deg) translate(-5px, 0px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  background-color: white;
+  border: 1px solid white;
+  transform: rotate(45deg) translate(-10px, -8px);
+}
+
+
 
 .name-logo {
   width: 100px;
@@ -70,6 +136,11 @@
   height: 610px;
   background-image: url("./image/header_background.svg");
   background-repeat: no-repeat;
+}
+
+.bodyTrans{
+  background-image: url('./image/fade_back.svg');
+  background-color: #6070ff;
 }
 
 .name {
@@ -482,7 +553,8 @@ li[id^='can'] {
     justify-content: space-around;
   }
 
-  .navbar div {
+  .navbar > div {
+    /* .bar1, .bar2, .bar3{ */
     border: none;
     font-size: 15px;
     background-color: white;
