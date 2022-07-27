@@ -43,7 +43,7 @@ body {
 .clicked {
   display: block;
   color: white;
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 600;
   margin-left: 28px;
   text-decoration: none;
