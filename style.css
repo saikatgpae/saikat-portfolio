@@ -69,7 +69,7 @@ body {
   cursor: pointer;
 }
 
-#nav2{
+#nav2 {
   display: none;
 }
 
@@ -82,7 +82,7 @@ body {
   background-color: blue;
   font-size: 0%;
 }
- 
+
 .change .bar1 {
   background-color: white;
   border: 1px solid white;
@@ -539,17 +539,22 @@ li[id^='can'] {
     display: flex;
     justify-content: space-around;
   }
-  #nav1{
+
+  #nav1 {
     display: none;
   }
-  #nav2{
+
+  #nav2 {
     display: flex;
   }
+
   #nav2 > a {
     text-decoration: none;
   }
 
-    .bar1, .bar2, .bar3{
+  .bar1,
+  .bar2,
+  .bar3 {
     border: none;
     font-size: 15px;
     background-color: white;
