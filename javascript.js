@@ -21,4 +21,6 @@ function menuChange(e) {
     // Unhide the menu option .onclick div
     let click = document.querySelector('.onclick');
     click.classList.toggle('clicked');
+
+    
   }

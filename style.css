@@ -42,9 +42,9 @@ body{
 .clicked{
   display: block;
   color: white;
-  /* font-size: 32px; */
-  /* font-weight: 600; */
-  /* margin-left: 28px; */
+  font-size: 32px;
+  font-weight: 600;
+  margin-left: 28px;
   text-decoration: none;
 }
 
