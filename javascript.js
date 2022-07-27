@@ -1,5 +1,10 @@
 /* eslint-disable */
 
+function close(){
+  location.reload();
+}
+
+
 function menuChange(e) {
   e.classList.toggle('change');
   // e.preventDefault();
@@ -14,7 +19,7 @@ function menuChange(e) {
 
   // Hide the header logo
   const headerLogo = document.querySelector('.header-logo');
-  headerLogo.classList.toggle('inVisible');
+  headerLogo.classList.toggle('invisible');
 
   // Hide body content
   const bodyContent = document.querySelector('.body-content');
@@ -25,4 +30,40 @@ function menuChange(e) {
   click.classList.toggle('clicked');
 }
 
+var mq = window.matchMedia( "(max-width: 768px)" );
+function seeProject(){
+  //Fix th #p1 id project page
+  if(mq.matches){
+    //fix the pop up window
+    const body = document.querySelector('#p1');
+    body.classList.add('fixed','project_span');
+
+    //Add the project connten para
+    let project1 = document.querySelector('.project1-para');
+    project1.innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi provident illum ab explicabo quasi officiis quas doloribus vero perferendis, repellat error temporibus eum minima recusandae corrupti, pariatur quibusdam voluptates tempora odio, dicta deleniti quos molestias! Corporis, libero voluptates. Amet, ea."
+
+    //Hide the See Prject button & Show the live, source button
+    document.querySelector('.see-project-button').style.display = 'none';
+    document.querySelector('.see-live-button').style.display = 'block';
+    document.querySelector('.see-source-button').style.display = 'block';
+  
+    //show the image 2 and block image 1
+    document.querySelector('#pr1Image').style.display = 'none';
+    document.querySelector('#prImage1').style.display = 'block';
+
+    //show the cross sighn
+    document.querySelector('.cross').style.display = 'block';
+  }
+  
+
+  
+  
+  
+
+
+
+
+
+
+}
 /* eslint-enable */

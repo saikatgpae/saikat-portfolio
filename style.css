@@ -2,6 +2,27 @@ body {
   margin: 0 0 0 0;
 }
 
+.fixed{
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+}
+
+.project_span{
+  background-color: #C1C7D0;
+  height: 100%;
+  background-image: url('./image/fade_back.svg');
+  background-repeat: no-repeat;
+}
+
+
+
+.cross{
+  float: right;
+  margin-right: 20px;
+  display: none;
+}
+
+
 .container {
   justify-content: center;
   background-color: #e5e5e5;
@@ -55,8 +76,18 @@ body {
   text-decoration: none;
 }
 
-.inVisible {
+.invisible {
   visibility: hidden;
+}
+
+.visible{
+  display: block;
+}
+
+#prImage1{
+  margin-left: 16px;
+  padding-bottom: 10px;
+  display: none;
 }
 
 .display-none {
@@ -180,12 +211,15 @@ body {
 
 /* WORK SECTION */
 .work_section {
-  margin-top: 114px;
+  margin-top: 26px;
 }
 
 .project {
   padding-left: 24px;
   padding-right: 24px;
+  /* padding-top: 60px; */
+  /* padding-bottom: 50px; */
+
 }
 
 .project > div {
@@ -266,7 +300,13 @@ li[id^='can'] {
   list-style-type: none;
 }
 
-.see-project button {
+.see-project{
+  display: flex;
+}
+.see-project-button,
+.see-source-button,
+.see-live-button{
+/* .see-project button { */
   margin: 0 0 30px 16px;
   border-radius: 8px;
   font-size: 17px;
@@ -276,16 +316,13 @@ li[id^='can'] {
   padding: 12px;
 }
 
-#p2 {
-  margin-top: 88px;
+.see-source-button,
+.see-live-button{
+  display: none;
 }
 
-#p3 {
-  margin-top: 88px;
-}
-
-#p4 {
-  margin-top: 88px;
+#p1,#p2, #p3, #p4 {
+  padding-top: 88px;
 }
 
 /* About Myself and Contact Me flexbox */
