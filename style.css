@@ -1,6 +1,7 @@
-body{
+body {
   margin: 0 0 0 0;
 }
+
 .container {
   justify-content: center;
   background-color: #e5e5e5;
@@ -31,15 +32,15 @@ body{
   justify-content: space-between;
 }
 
-.headertrans{
+.headertrans {
   background-color: #6070ff;
 }
 
-.onclick{
+.onclick {
   display: none;
 }
 
-.clicked{
+.clicked {
   display: block;
   color: white;
   font-size: 32px;
@@ -48,34 +49,17 @@ body{
   text-decoration: none;
 }
 
-.clicked a:link, .clicked a:visited {
+.clicked a:link,
+.clicked a:visited {
   color: white;
   text-decoration: none;
+}
 
-} 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.inVisible{
+.inVisible {
   visibility: hidden;
 }
 
-.display-none{
+.display-none {
   display: none;
 }
 
@@ -85,7 +69,9 @@ body{
   cursor: pointer;
 }
 
-.bar1, .bar2, .bar3 {
+.bar1,
+.bar2,
+.bar3 {
   width: 30px;
   border: 1px solid blue;
   margin: 6px;
@@ -93,22 +79,19 @@ body{
   font-size: 0%;
 }
 
-
 .change .bar1 {
   background-color: white;
   border: 1px solid white;
-  transform: rotate(-45deg) translate(-5px, 0px);
+  transform: rotate(-45deg) translate(-5px, 0);
 }
 
-.change .bar2 {opacity: 0;}
+.change .bar2 { opacity: 0; }
 
 .change .bar3 {
   background-color: white;
   border: 1px solid white;
   transform: rotate(45deg) translate(-10px, -8px);
 }
-
-
 
 .name-logo {
   width: 100px;
@@ -138,7 +121,7 @@ body{
   background-repeat: no-repeat;
 }
 
-.bodyTrans{
+.bodyTrans {
   background-image: url('./image/fade_back.svg');
   background-color: #6070ff;
 }
