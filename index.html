@@ -21,17 +21,22 @@
                             <img class="name-logo" src="./image/logo.png" alt="Personal logo">
                         </a>
                     </div>
-                    <div class="navbar" onclick="menuChange(this)">
+                    <div class="navbar" id="nav1" onclick="menuChange(this)">
                         <div class="bar1">Portfolio</div>
                         <div class="bar2">About</div>
                         <div class="bar3">Contact</div>
                     </div>
+                    <div class="navbar" id="nav2">
+                        <a href="#p1"><div class="bar1">Portfolio</div></a>
+                        <a href="#p5"><div class="bar2">About</div></a>
+                        <a href="#p6"><div class="bar3">Contact</div></a>
+                    </div>
             </header>
             <section class="body">
                 <div class="onclick">
-                    <a href=""><h5>Portfolio</h5></a>
-                    <a href=""><h5>About</h5></a>
-                    <a href=""><h5>Contact</h5></a>
+                    <a href="#p1"><h5>Portfolio</h5></a>
+                    <a href="#p5"><h5>About</h5></a>
+                    <a href="#p6"><h5>Contact</h5></a>
                 </div>
                 <div class="body-content">
                     <div class="name">
@@ -227,7 +232,7 @@
                     </div>
                         <div class="am-menu-contact">
                                     
-                            <div class="contact_me" id="6">
+                            <div class="contact_me" id="p6">
                                 <h2>Contact me</h2>
                                 <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
                                 <form action="https://formspree.io/f/mbjwvwle" class="contact-form" method="post">

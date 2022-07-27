@@ -2,6 +2,7 @@
 
 function menuChange(e) {
   e.classList.toggle('change');
+  // e.preventDefault();
 
   // Changing the background of body class
   const body = document.querySelector('.body');
