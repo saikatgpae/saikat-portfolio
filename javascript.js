@@ -83,8 +83,13 @@ function seeProject(){
     document.querySelector('#grb1','#grb2','#grb3','#grb4').style.display = 'block';
 
     //show the image 2 and block image 1
-    // document.querySelector('#pr1Image').style.display = 'none';
-    // document.querySelector('#prImage1').style.display = 'block';
+    document.querySelector('#pr1Image').style.display = 'none';
+    document.querySelector('#prImage1').style.display = 'block';
+
+    let projectInfo = document.querySelector('.project-info');
+    projectInfo.classList.remove('project-info');
+
+
 
     
 
