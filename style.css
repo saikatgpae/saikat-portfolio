@@ -113,7 +113,10 @@ body {
   display: block;
 }
 
-#prImage1, #prImage2, #prImage3, #prImage4{
+#prImage1,
+#prImage2,
+#prImage3,
+#prImage4 {
   margin-left: 16px;
   padding-bottom: 10px;
   display: none;
