@@ -341,12 +341,6 @@ li[id^='can'] {
   display: none;
 }
 
-
-
-
-
-
-
 /* About Myself and Contact Me flexbox */
 .am-contact {
   display: flex;
