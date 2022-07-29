@@ -538,7 +538,6 @@ li[id^='can'] {
 /* .contact_me input { */
   height: 48px;
   border-radius: 8px;
-  margin-bottom: 20px;
   padding-left: 16px;
   width: 311px;
   font-size: 17px;
@@ -548,6 +547,7 @@ li[id^='can'] {
 
 
 #text-box {
+  margin-top: 20px;
   width: 327px;
   height: 160px;
   border-radius: 8px;
@@ -733,6 +733,7 @@ li[id^='can'] {
     width: 447px;
     border-radius: 0;
     border-style: none;
+    margin-top: 20px;
   }
 
   .contact-ul #text-box {
