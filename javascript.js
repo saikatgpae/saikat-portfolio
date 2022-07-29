@@ -1,5 +1,8 @@
 /* eslint-disable */
 
+
+//MOBILE POP MENU
+
 function close(){
   location.reload();
 }
@@ -32,6 +35,10 @@ function menuChange(e) {
   const click = document.querySelector('.onclick');
   click.classList.toggle('clicked');
 }
+
+
+
+//DIFFERENT POP UP WINDOWS FOR MOBILE AND DESKTOP VERSION
 
 var mq = window.matchMedia( "(max-width: 768px)" );
 function seeProject(){
@@ -88,23 +95,32 @@ function seeProject(){
 
     let projectInfo = document.querySelector('.project-info');
     projectInfo.classList.remove('project-info');
-
-
-
-    
-
   }
-
-  
-
-  
-  
-  
-
-
-
-
-
-
 }
+
+
+
+
+// 
+// Email validation
+// 
+
+
+function validateEmail(email){
+
+  var email1 = document.getElementById('email').value;
+  if(email1 == email1.toLowerCase())
+  {
+    // alert('email is valid');
+    document.forms.email.focus();
+    return true;
+  }
+  else
+  {
+    document.querySelector('.error-msg-before').classList.add('error-msg-after');
+    return false;
+  }
+}
+
+
 /* eslint-enable */
