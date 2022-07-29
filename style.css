@@ -2,28 +2,18 @@ body {
   margin: 0 0 0 0;
 }
 
-.error-msg-before{
+.error-msg-before {
   font-size: 15px;
   background-color: white;
   color: red;
   display: none;
 }
-.error-msg-after{
+
+.error-msg-after {
   display: inline-block;
   color: red;
   margin: 0 0 0 0;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .fixed {
   position: fixed;
@@ -349,7 +339,7 @@ li[id^='can'] {
 .see-project-button,
 .see-source-button,
 .see-live-button,
-  .see-project button {
+.see-project button {
   margin: 0 0 30px 16px;
   border-radius: 8px;
   font-size: 17px;
@@ -364,7 +354,7 @@ li[id^='can'] {
   display: none;
 }
 
-.form-button{
+.form-button {
   background-color: #ebebff;
   border: 2px solid #6070ff;
   color: #0018f0;
@@ -534,8 +524,9 @@ li[id^='can'] {
   margin-bottom: 29px;
 }
 
-#name, #email{
-/* .contact_me input { */
+#name,
+#email {
+  /* .contact_me input { */
   height: 48px;
   border-radius: 8px;
   padding-left: 16px;
@@ -543,8 +534,6 @@ li[id^='can'] {
   font-size: 17px;
   transition: font-size 0.25s;
 }
-
-
 
 #text-box {
   margin-top: 20px;
@@ -729,7 +718,8 @@ li[id^='can'] {
     margin-right: 25%;
   }
 
-  #email, #name {
+  #email,
+  #name {
     width: 447px;
     border-radius: 0;
     border-style: none;
