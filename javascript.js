@@ -119,7 +119,7 @@ function validateEmail(email) {
 
 const nameInput = document.querySelector('#name');
 const textMessage = document.querySelector('#text-box');
-
+const email = document.querySelector('#email')
 
 const dataInput = {};
 const storage = window.localStorage;
