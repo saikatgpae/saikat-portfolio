@@ -9,7 +9,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,600&display=swap');
     </style>
-    <script src="./javascript.js"></script>
+    
     <title>Saikat Portfolio</title>
 </head>
 <body>
@@ -311,7 +311,7 @@
                                 <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
                                 <form name="form" action="https://formspree.io/f/mbjwvwle" method="post" class="contact-form" onsubmit="return validateEmail(email) ">
                                     <ul class="contact-ul">
-                                      <li><input id="name" type="text"  required maxlength="30" placeholder="Full Name"></li>
+                                      <li><input id="name" type="text"  required maxlength="30" placeholder="Full Name" autofocus></li>
                                       <li><input id="email" type="text" required placeholder="Email" name="email"></li>
                                       <li><div class="error-msg-before"> Error : Please enter email-ID with all lower case.</div></li>
                                       <li><textarea name="text-box" id="text-box" placeholder="Enter text here" required maxlength="500"></textarea></li>
@@ -327,5 +327,6 @@
             </section>
         </section>
     </div>
+    <script src="./javascript.js"></script>
 </body>
 </html>
