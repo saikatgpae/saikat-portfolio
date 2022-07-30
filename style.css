@@ -2,6 +2,19 @@ body {
   margin: 0 0 0 0;
 }
 
+.error-msg-before {
+  font-size: 15px;
+  background-color: white;
+  color: red;
+  display: none;
+}
+
+.error-msg-after {
+  display: inline-block;
+  color: red;
+  margin: 0 0 0 0;
+}
+
 .fixed {
   position: fixed;
   top: 0;
@@ -325,8 +338,8 @@ li[id^='can'] {
 
 .see-project-button,
 .see-source-button,
-.see-live-button {
-  /* .see-project button { */
+.see-live-button,
+.see-project button {
   margin: 0 0 30px 16px;
   border-radius: 8px;
   font-size: 17px;
@@ -339,6 +352,16 @@ li[id^='can'] {
 .see-source-button,
 .see-live-button {
   display: none;
+}
+
+.form-button {
+  background-color: #ebebff;
+  border: 2px solid #6070ff;
+  color: #0018f0;
+  width: 140px;
+  height: 48px;
+  border-radius: 8px;
+  font-size: 17px;
 }
 
 /* About Myself and Contact Me flexbox */
@@ -501,21 +524,19 @@ li[id^='can'] {
   margin-bottom: 29px;
 }
 
-.contact_me input {
+#name,
+#email {
+  /* .contact_me input { */
   height: 48px;
   border-radius: 8px;
-  margin-bottom: 20px;
   padding-left: 16px;
   width: 311px;
   font-size: 17px;
   transition: font-size 0.25s;
 }
 
-.contact_me input:hover {
-  font-size: 25px;
-}
-
 #text-box {
+  margin-top: 20px;
   width: 327px;
   height: 160px;
   border-radius: 8px;
@@ -697,10 +718,12 @@ li[id^='can'] {
     margin-right: 25%;
   }
 
-  .contact-ul input {
+  #email,
+  #name {
     width: 447px;
     border-radius: 0;
     border-style: none;
+    margin-top: 20px;
   }
 
   .contact-ul #text-box {

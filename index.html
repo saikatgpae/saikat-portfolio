@@ -295,28 +295,31 @@
                                 </div>
                             </div>
                             <div class="frame">
-                                    <div>Frameworks</div>
-                                    <div><img src="./image/right_arrow.png" alt="right arrow"></div>
+                                <div>Frameworks</div>
+                                <div><img src="./image/right_arrow.png" alt="right arrow"></div>
                             </div>
                             <div class="skills">
-                                    <div>Skills</div>
-                                    <div><img src="./image/right_arrow.png" alt="right arrow"></div>
+                                <div>Skills</div>
+                                <div><img src="./image/right_arrow.png" alt="right arrow"></div>
                             </div>
                         </div>
                     </div>
-                        <div class="am-menu-contact">
-                                    
+                        <div class="am-menu-contact">        
                             <div class="contact_me" id="p6">
+                                
                                 <h2>Contact me</h2>
                                 <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-                                <form action="https://formspree.io/f/mbjwvwle" class="contact-form" method="post">
+                                <form name="form" action="https://formspree.io/f/mbjwvwle" method="post" class="contact-form" onsubmit="return validateEmail(email) ">
                                     <ul class="contact-ul">
-                                        <li><input type="text" id="name" required maxlength="30" placeholder="Full Name"></li>
-                                        <li><input type="email" id="email" required placeholder="Email"></li>
-                                        <li><textarea name="text-box" id="text-box" placeholder="Enter text here" required maxlength="500"></textarea></li>
-                                       <li><button  type="submit">Get in Touch</button></li>
+                                      <li><input id="name" type="text"  required maxlength="30" placeholder="Full Name"></li>
+                                      <li><input id="email" type="text" required placeholder="Email" name="email"></li>
+                                      <li><div class="error-msg-before"> Error : Please enter email-ID with all lower case.</div></li>
+                                      <li><textarea name="text-box" id="text-box" placeholder="Enter text here" required maxlength="500"></textarea></li>
+                                      <li><input class="form-button" type="submit" value="Get In Touch"></li>
                                     </ul>
-                                </form>
+                                  </form>
+                                  
+                                  <small class="eror-msg"></small>
                                <hr class="end-line">
                             </div>
                         </div>
