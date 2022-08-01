@@ -9,7 +9,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,600&display=swap');
     </style>
-    <script src="./javascript.js"></script>
+   
     <title>Saikat Portfolio</title>
 </head>
 <body>
@@ -21,22 +21,22 @@
                             <img class="name-logo" src="./image/logo.png" alt="Personal logo">
                         </a>
                     </div>
-                    <div class="navbar" id="nav1" onclick="menuChange(this)">
-                        <div class="bar1">Portfolio</div>
-                        <div class="bar2">About</div>
-                        <div class="bar3">Contact</div>
+                    <div class="navbar" id="nav1">
+                        <div class="bar" id="bar1">Portfolio</div>
+                        <div class="bar" id="bar2">About</div>
+                        <div class="bar" id="bar3">Contact</div>
                     </div>
                     <div class="navbar" id="nav2">
-                        <a href="#p1"><div class="bar1">Portfolio</div></a>
-                        <a href="#p5"><div class="bar2">About</div></a>
-                        <a href="#p6"><div class="bar3">Contact</div></a>
+                        <a href="#p1"><div class="bar" id="bar1">Portfolio</div></a>
+                        <a href="#p5"><div class="bar" id="bar2">About</div></a>
+                        <a href="#p6"><div class="bar" id="bar3">Contact</div></a>
                     </div>
             </header>
             <section class="body">
                 <div class="onclick">
-                    <a href="#p1"><h5>Portfolio</h5></a>
-                    <a href="#p5"><h5>About</h5></a>
-                    <a href="#p6"><h5>Contact</h5></a>
+                    <a href="#p1" class="menu-item"><h5>Portfolio</h5></a>
+                    <a href="#p5" class="menu-item"><h5>About</h5></a>
+                    <a href="#p6" class="menu-item"><h5>Contact</h5></a>
                 </div>
                 <div class="body-content">
                     <div class="name">
@@ -250,5 +250,6 @@
             </section>
         </section>
     </div>
+    <script src="./javascript.js"></script>
 </body>
 </html>

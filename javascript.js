@@ -1,28 +1,79 @@
-/* eslint-disable */
 
-function menuChange(e) {
-  e.classList.toggle('change');
-  // e.preventDefault();
+let nav1 = document.querySelector('#bar1','#bar2','#bar3');
 
+nav1.addEventListener('click', (event)=>{
+  // alert('clicked');
+  // event.preventDefault();
+  event.stopPropagation();
+  
+  document.querySelector('.main').classList.toggle('fixed');
+
+
+  document.querySelector('#nav1').classList.toggle('change');
+  
   // Changing the background of body class
-  const body = document.querySelector('.body');
-  body.classList.toggle('bodyTrans');
-
+  document.querySelector('.body').classList.toggle('bodyTrans');
+  
   // Change the background colour of header
-  const header = document.querySelector('.header');
-  header.classList.toggle('headertrans');
-
+  document.querySelector('.header').classList.toggle('headertrans');
+  
   // Hide the header logo
-  const headerLogo = document.querySelector('.header-logo');
-  headerLogo.classList.toggle('inVisible');
-
+  document.querySelector('.header-logo').classList.toggle('inVisible');
   // Hide body content
-  const bodyContent = document.querySelector('.body-content');
-  bodyContent.classList.toggle('display-none');
-
+  document.querySelector('.body-content').classList.toggle('display-none');
   // Unhide the menu option .onclick div
-  const click = document.querySelector('.onclick');
-  click.classList.toggle('clicked');
+  document.querySelector('.onclick').classList.toggle('clicked');
+  
+})
+
+
+
+
+document.querySelectorAll('.menu-item').forEach(n=>n.addEventListener('click', ()=>{
+  document.querySelector('.main').classList.remove('fixed');
+  document.querySelector('#nav1').classList.remove('change');
+  document.querySelector('.body').classList.remove('bodyTrans');
+  document.querySelector('.header').classList.remove('headertrans');
+  document.querySelector('.header-logo').classList.remove('inVisible');
+  document.querySelector('.body-content').classList.remove('display-none');
+  document.querySelector('.onclick').classList.remove('clicked');
+  
+}));
+
+
+
+
+
+/* eslint-disable 
+
+
+let nav1 = document.querySelector('.nav1');
+
+function menuChange() {
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
 }
 
-/* eslint-enable */
+nav1.addEventListener('click', menuChange);
+eslint-enable */

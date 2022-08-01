@@ -23,6 +23,13 @@ body {
   border-radius: 0 0 0 100px;
 }
 
+.fixed{
+  position: fixed;
+}
+
+.display-none{
+  display: none;
+}
 .header {
   color: blue;
   padding-top: 30px;
@@ -73,9 +80,9 @@ body {
   display: none;
 }
 
-.bar1,
-.bar2,
-.bar3 {
+#bar1,
+#bar2,
+#bar3 {
   width: 30px;
   border: 1px solid blue;
   margin: 6px;
@@ -83,17 +90,19 @@ body {
   font-size: 0%;
 }
 
-.change .bar1 {
+.change #bar1 {
   background-color: white;
   border: 1px solid white;
+  transition: .25s;
   transform: rotate(-45deg) translate(-5px, 0);
 }
 
-.change .bar2 { opacity: 0; }
+.change #bar2 { opacity: 0;}
 
-.change .bar3 {
+.change #bar3 {
   background-color: white;
   border: 1px solid white;
+  transition: .25s;
   transform: rotate(45deg) translate(-10px, -8px);
 }
 
@@ -552,9 +561,9 @@ li[id^='can'] {
     text-decoration: none;
   }
 
-  .bar1,
-  .bar2,
-  .bar3 {
+  #bar1,
+  #bar2,
+  #bar3 {
     border: none;
     font-size: 15px;
     background-color: white;
